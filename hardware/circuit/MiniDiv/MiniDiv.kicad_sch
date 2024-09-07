@@ -8257,22 +8257,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "b5945a08-e392-499f-9231-05834922b09e")
+			(uuid "b5945a08-e392-499f-9231-05834922b09f")
 		)
 		(pin "6"
-			(uuid "6391a9e6-92bc-416b-84ab-2bf6f75a16d3")
+			(uuid "6391a9e6-92bc-416b-84ab-2bf6f75a16d4")
 		)
 		(pin "5"
-			(uuid "523fe3da-b849-4806-8198-a2aedd72363a")
+			(uuid "523fe3da-b849-4806-8198-a2aedd72363b")
 		)
 		(pin "2"
-			(uuid "13918e72-238f-4ee7-ace1-48c4bcf65259")
+			(uuid "13918e72-238f-4ee7-ace1-48c4bcf6525a")
 		)
 		(pin "1"
-			(uuid "9537f5fb-ea82-47b4-b2c2-f0c228e2c71f")
+			(uuid "9537f5fb-ea82-47b4-b2c2-f0c228e2c720")
 		)
 		(pin "3"
-			(uuid "7237e737-6f7f-4aae-84f3-ea5ceec9751a")
+			(uuid "7237e737-6f7f-4aae-84f3-ea5ceec9751b")
 		)
 		(instances
 			(project ""
@@ -9841,22 +9841,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "55730993-3950-45a4-b36f-acbd92f46766")
+			(uuid "55730993-3950-45a4-b36f-acbd92f46767")
 		)
 		(pin "2"
-			(uuid "e53f203e-6b0c-4350-b59e-30e75c76f4ab")
+			(uuid "e53f203e-6b0c-4350-b59e-30e75c76f4ac")
 		)
 		(pin "3"
-			(uuid "bd94f42c-4840-46e9-bdc3-c84c8b75d063")
+			(uuid "bd94f42c-4840-46e9-bdc3-c84c8b75d064")
 		)
 		(pin "4"
-			(uuid "896bc352-9146-49e4-b0a4-6aa830888f1d")
+			(uuid "896bc352-9146-49e4-b0a4-6aa830888f1e")
 		)
 		(pin "6"
-			(uuid "a11deeae-9402-41cc-b649-f52c8327b079")
+			(uuid "a11deeae-9402-41cc-b649-f52c8327b07a")
 		)
 		(pin "5"
-			(uuid "7f4b0d60-1fca-49c7-88bc-bcd6b6ce38e3")
+			(uuid "7f4b0d60-1fca-49c7-88bc-bcd6b6ce38e4")
 		)
 		(instances
 			(project ""
@@ -13245,7 +13245,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0f61739d-d153-43b0-afcf-93e674e4f3b7")
-		(property "Sheetname" "outputs"
+		(property "Sheetname" "Outputs"
 			(at 208.28 27.4824 0)
 			(effects
 				(font
@@ -13254,13 +13254,22 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "outputs.kicad_sch"
+		(property "Sheetfile" "Outputs.kicad_sch"
 			(at 208.28 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 208.28 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "OUT_2" input

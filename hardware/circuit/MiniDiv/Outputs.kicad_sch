@@ -2217,7 +2217,7 @@
 			(uuid "2a220c64-bc1d-4f55-bd2b-4b0b24dc2063")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
 					(reference "DIV_OUT1")
 					(unit 1)
