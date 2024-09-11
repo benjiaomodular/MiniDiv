@@ -587,6 +587,12 @@
 		)
 	)
 	(junction
+		(at 123.19 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f1da36-67a3-4bae-82a8-abc5238c7e86")
+	)
+	(junction
 		(at 74.93 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -603,6 +609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56495378-20f8-4a07-bce8-78f662b5d839")
+	)
+	(junction
+		(at 123.19 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "648dd718-30c5-4014-9bd0-b07992fd5153")
 	)
 	(junction
 		(at 74.93 48.26)
@@ -643,6 +655,10 @@
 		(uuid "1fc479e8-25f9-489d-af5c-c6493da3fc59")
 	)
 	(no_connect
+		(at 137.16 17.78)
+		(uuid "391104cb-f2b9-4f21-8a0b-0cb462b4f264")
+	)
+	(no_connect
 		(at 88.9 45.72)
 		(uuid "5cba2427-df7b-4716-804a-d4b80891cd82")
 	)
@@ -657,6 +673,10 @@
 	(no_connect
 		(at 40.64 45.72)
 		(uuid "805ca5ac-7d74-40cc-a84b-3523f2dfb744")
+	)
+	(no_connect
+		(at 137.16 45.72)
+		(uuid "9e2cc363-5227-4041-9f4b-ba088042ba3a")
 	)
 	(no_connect
 		(at 88.9 73.66)
@@ -675,6 +695,16 @@
 			(type default)
 		)
 		(uuid "05a59633-399d-4de1-ab99-ae3fe28c1eb1")
+	)
+	(wire
+		(pts
+			(xy 123.19 20.32) (xy 125.73 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080bcda8-2a8a-4cb5-b772-019cbdfbbe65")
 	)
 	(wire
 		(pts
@@ -698,6 +728,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 30.48) (xy 123.19 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09330ad8-331f-4438-a190-b53ade77a411")
+	)
+	(wire
+		(pts
+			(xy 120.65 20.32) (xy 123.19 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093eb99d-7f2a-467b-a1cd-acb9b9df3d7a")
+	)
+	(wire
+		(pts
 			(xy 36.83 76.2) (xy 40.64 76.2)
 		)
 		(stroke
@@ -705,6 +755,16 @@
 			(type default)
 		)
 		(uuid "0d547bd9-3d29-4c57-9c51-dcfd47b53cc0")
+	)
+	(wire
+		(pts
+			(xy 133.35 20.32) (xy 137.16 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d65c967-e8f8-4fa7-93c9-715316f86ea1")
 	)
 	(wire
 		(pts
@@ -725,6 +785,16 @@
 			(type default)
 		)
 		(uuid "15c264b9-8952-479d-aba1-26b69f985a78")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1773d169-cc15-4f7d-b867-41a3fd5d8544")
 	)
 	(wire
 		(pts
@@ -768,6 +838,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 50.8) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22bb42c3-e482-41a0-a238-f05c8db94459")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24016a4f-7aa4-4bdb-bc95-19b24161477b")
+	)
+	(wire
+		(pts
 			(xy 26.67 95.25) (xy 26.67 96.52)
 		)
 		(stroke
@@ -785,6 +875,16 @@
 			(type default)
 		)
 		(uuid "2fedea9a-45a4-48a9-ad86-2899431e770a")
+	)
+	(wire
+		(pts
+			(xy 133.35 48.26) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b7a3dd-c608-48a3-91b5-64b6fc89677d")
 	)
 	(wire
 		(pts
@@ -818,6 +918,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 20.32) (xy 123.19 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472403af-a5f3-4545-80b3-0b3197e8b57e")
+	)
+	(wire
+		(pts
 			(xy 74.93 86.36) (xy 74.93 87.63)
 		)
 		(stroke
@@ -825,6 +935,16 @@
 			(type default)
 		)
 		(uuid "4aaa0603-325f-4c49-976a-00ca246cc534")
+	)
+	(wire
+		(pts
+			(xy 123.19 48.26) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8b3457-7fa7-4a5f-a3a7-fb63cffd127b")
 	)
 	(wire
 		(pts
@@ -865,6 +985,16 @@
 			(type default)
 		)
 		(uuid "5e82398d-2023-4e1d-8dde-f8f3c9154a11")
+	)
+	(wire
+		(pts
+			(xy 137.16 22.86) (xy 135.89 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe3848f-4e56-4ee5-90ec-d81e3def2a28")
 	)
 	(wire
 		(pts
@@ -918,6 +1048,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 22.86) (xy 135.89 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e115f13-dcc7-4124-befe-023b85449c81")
+	)
+	(wire
+		(pts
 			(xy 88.9 78.74) (xy 87.63 78.74)
 		)
 		(stroke
@@ -948,6 +1088,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 39.37) (xy 123.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947ee4f9-3f17-444f-ba43-f37d2a9eb2a9")
+	)
+	(wire
+		(pts
 			(xy 26.67 67.31) (xy 26.67 68.58)
 		)
 		(stroke
@@ -965,6 +1115,16 @@
 			(type default)
 		)
 		(uuid "97458f83-6b09-4a81-9c61-bb0afdcb1b1e")
+	)
+	(wire
+		(pts
+			(xy 120.65 48.26) (xy 123.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9862857a-a68d-47c2-ad7a-b81f3c7d5b7a")
 	)
 	(wire
 		(pts
@@ -1048,6 +1208,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 48.26) (xy 125.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1427ce-372d-4d38-bed7-e0fbd8c3613e")
+	)
+	(wire
+		(pts
 			(xy 26.67 114.3) (xy 26.67 115.57)
 		)
 		(stroke
@@ -1105,6 +1275,16 @@
 			(type default)
 		)
 		(uuid "bd66f281-ff69-46b1-9aef-2e795c5e55b0")
+	)
+	(wire
+		(pts
+			(xy 123.19 58.42) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0339df4-6396-4dcd-a55b-78dc3a1fa7d7")
 	)
 	(wire
 		(pts
@@ -1306,6 +1486,18 @@
 		)
 		(uuid "fa38865a-452e-4e80-8762-e42c594947c6")
 	)
+	(hierarchical_label "OUT_1024"
+		(shape input)
+		(at 120.65 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e22d6ee-fe65-470b-84e3-42df41f4ad0c")
+	)
 	(hierarchical_label "OUT_128"
 		(shape input)
 		(at 72.39 76.2 180)
@@ -1402,6 +1594,18 @@
 		)
 		(uuid "e9ce4aaa-90cb-4c7a-81ce-386c985de0eb")
 	)
+	(hierarchical_label "OUT_512"
+		(shape input)
+		(at 120.65 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f46cedaf-057c-416e-86b5-24b1d1a52ce5")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 74.93 68.58 0)
@@ -1412,7 +1616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06aa2d61-335c-4331-bf07-c1ef3d955bf5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -1462,7 +1666,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1477,7 +1681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0738b275-da83-4f5d-a810-f2a8899a30e9")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 72.898 82.55 90)
 			(effects
 				(font
@@ -1529,7 +1733,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1545,7 +1749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ca55e90-ea66-49fb-a4b7-63ad381effab")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 87.63 30.48 0)
 			(effects
 				(font
@@ -1595,7 +1799,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1611,7 +1815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "164704e9-bb6f-4372-bfcf-946adbd57045")
-		(property "Reference" "DIV_OUT2"
+		(property "Reference" "OUT_2"
 			(at 50.8 46.3549 0)
 			(effects
 				(font
@@ -1668,7 +1872,73 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT2")
+					(reference "OUT_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ab1a32-ab7c-4bdd-a546-03ee6e264b91")
+		(property "Reference" "#PWR040"
+			(at 123.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54fc00bb-992f-4557-b3fd-61dfd7a93eec")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1684,7 +1954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2516caf0-c8c5-4b34-a1cf-fc5350a01a82")
-		(property "Reference" "DIV_OUT8"
+		(property "Reference" "OUT_8"
 			(at 99.06 102.2349 0)
 			(effects
 				(font
@@ -1741,7 +2011,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT8")
+					(reference "OUT_8")
 					(unit 1)
 				)
 			)
@@ -1757,7 +2027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d76c989-d49c-4b35-b356-244b3e9bf9a1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 26.67 45.72 0)
 			(effects
 				(font
@@ -1807,7 +2077,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1823,7 +2093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e2a324c-915e-4f18-9813-6f22662f78c5")
-		(property "Reference" "DIV_OUT7"
+		(property "Reference" "OUT_7"
 			(at 99.06 74.2949 0)
 			(effects
 				(font
@@ -1880,7 +2150,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT7")
+					(reference "OUT_7")
 					(unit 1)
 				)
 			)
@@ -1896,7 +2166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31acdc23-7824-4b7c-9cdd-0313cae74222")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -1946,7 +2216,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1961,7 +2231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33ffebd7-7e55-4362-b46a-59dda4b92349")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 81.28 74.168 90)
 			(effects
 				(font
@@ -2013,7 +2283,95 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R25")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 123.19 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "346ccbca-1fed-4c98-a7c5-50d7c11282ac")
+		(property "Reference" "D14"
+			(at 126.746 63.8174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 126.746 66.3574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturers Name" "KENTO"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturers Part Number" "3ARG4HWC"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e192ad41-7d1b-415e-ae10-26280fc91abf")
+		)
+		(pin "2"
+			(uuid "705ebe5a-b36a-4412-a6d3-dd3d825754aa")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "347d7455-29ab-432e-a663-b2cff7053ce3")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 24.638 110.49 90)
 			(effects
 				(font
@@ -2080,7 +2438,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2096,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354f48f9-7492-4e20-b686-65136dafae71")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 39.37 86.36 0)
 			(effects
 				(font
@@ -2146,7 +2504,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2162,7 +2520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "365fd830-007a-4ce0-a567-d0c9c5ca9b76")
-		(property "Reference" "DIV_OUT1"
+		(property "Reference" "OUT_1"
 			(at 50.8 18.4149 0)
 			(effects
 				(font
@@ -2219,7 +2577,73 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT1")
+					(reference "OUT_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38b8d554-c507-4a73-9969-7cfbcbab2647")
+		(property "Reference" "#PWR042"
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e00c26f-4c97-45ce-9e9b-568f7a97b123")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2235,7 +2659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec5e6b0-0db9-4e68-9e85-bd8a18979541")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -2285,7 +2709,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "419f7623-d10f-4fe6-b9d8-69e0487bf26a")
-		(property "Reference" "DIV_OUT4"
+		(property "Reference" "OUT_4"
 			(at 50.8 102.2349 0)
 			(effects
 				(font
@@ -2358,7 +2782,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT4")
+					(reference "OUT_4")
 					(unit 1)
 				)
 			)
@@ -2374,7 +2798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456efc4e-d062-434d-9a92-a6ea9190f279")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 30.226 63.8174 90)
 			(effects
 				(font
@@ -2392,7 +2816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 26.67 63.5 0)
 			(effects
 				(font
@@ -2446,7 +2870,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2461,7 +2885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "477aa233-42b7-4bb1-a1a3-58f7dbab85c0")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 24.638 25.4 90)
 			(effects
 				(font
@@ -2513,7 +2937,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2529,7 +2953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486955a7-3ef5-4f0a-b7f4-9e760129302e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -2579,7 +3003,74 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR035")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bbb571a-974c-4d18-b515-2fb92e399855")
+		(property "Reference" "R26"
+			(at 121.158 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 123.19 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 121.412 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7ad8f42-eb03-4495-ac03-7d946b01c279")
+		)
+		(pin "2"
+			(uuid "8237e7ff-aaa6-48db-a1f6-a3e54d5b33fc")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2595,7 +3086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a6d7b6-6511-40a7-87b0-0da421fde329")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 87.63 86.36 0)
 			(effects
 				(font
@@ -2645,7 +3136,74 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR039")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51310f4c-365f-4d8f-8f15-22ef1499c8ce")
+		(property "Reference" "R28"
+			(at 129.54 18.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 129.54 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 129.54 18.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "896afb41-3302-455b-b1ed-eb1b84d7580e")
+		)
+		(pin "2"
+			(uuid "3399433e-8a91-4eb4-b347-3f9b4ab3d382")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2660,7 +3218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51ccf3e9-bce8-48ba-9bff-437eb103f69b")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 81.28 18.288 90)
 			(effects
 				(font
@@ -2712,7 +3270,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2727,7 +3285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c7e8e2a-bed3-48a2-9320-189d237cb132")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 72.898 110.49 90)
 			(effects
 				(font
@@ -2779,7 +3337,80 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R22")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 142.24 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d0f42c0-7510-4dea-86fc-3939a75e5679")
+		(property "Reference" "OUT_10"
+			(at 147.32 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ3001F"
+			(at 147.32 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "d7647f99-8d5a-4461-a655-c2bcef8ed421")
+		)
+		(pin "T"
+			(uuid "e02080f6-1a13-4a5c-aec9-39bfd3eda491")
+		)
+		(pin "TN"
+			(uuid "4685bb4f-2926-4a19-9f4c-1841e6fba2f8")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "OUT_10")
 					(unit 1)
 				)
 			)
@@ -2795,7 +3426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d9ae351-8f7d-48ca-af97-e21bec0617b0")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 78.486 34.6074 90)
 			(effects
 				(font
@@ -2813,7 +3444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 74.93 34.29 0)
 			(effects
 				(font
@@ -2867,7 +3498,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2883,7 +3514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60bdf583-5526-40d6-8274-fad65dc50e81")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 30.226 91.7574 90)
 			(effects
 				(font
@@ -2901,7 +3532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 26.67 91.44 0)
 			(effects
 				(font
@@ -2955,7 +3586,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2970,7 +3601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "634baa3d-8d54-482a-a902-482c5b01e301")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 33.02 74.168 90)
 			(effects
 				(font
@@ -3022,7 +3653,74 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R17")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65e28471-5b5d-4208-9931-98f2cb96885b")
+		(property "Reference" "R29"
+			(at 129.54 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 129.54 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 129.54 46.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4720c5d6-e416-4337-961b-b74963b798ef")
+		)
+		(pin "2"
+			(uuid "908d23b6-df8f-444b-9b4f-42e77720a483")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3037,7 +3735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d8da89d-67c4-430c-afe1-41e543100d10")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 81.28 46.228 90)
 			(effects
 				(font
@@ -3089,7 +3787,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3104,7 +3802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f86058f-0ead-422c-8595-66c88d191ccc")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 81.28 102.108 90)
 			(effects
 				(font
@@ -3156,7 +3854,161 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R26")
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7474c722-a55f-4cb1-99d4-0845b7e2146e")
+		(property "Reference" "#PWR039"
+			(at 123.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00a80f71-fdf5-450b-b197-dd1516a10afc")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 123.19 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8407a3d3-d724-4570-abac-75bd766387bd")
+		(property "Reference" "D13"
+			(at 126.746 35.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 126.746 38.4174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturers Name" "KENTO"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturers Part Number" "3ARG4HWC"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2130d834-0076-4df3-abc5-be214b4e585e")
+		)
+		(pin "2"
+			(uuid "b28ef28b-8bc7-47fd-9bc8-b254925741e9")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3172,7 +4024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d3d0e24-757f-4fcf-ab43-0757c23f49c1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -3222,7 +4074,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3238,7 +4090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "905f16a9-1087-41ad-bd02-8ed211cddbaf")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 87.63 58.42 0)
 			(effects
 				(font
@@ -3288,7 +4140,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3304,7 +4156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a21046-a735-4ad7-b828-fe9cad8fdac7")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 30.226 119.6974 90)
 			(effects
 				(font
@@ -3322,7 +4174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 26.67 119.38 0)
 			(effects
 				(font
@@ -3376,7 +4228,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3392,7 +4244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d95177f-bc3f-4d06-a9db-afc7a2bc01f0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 26.67 102.87 0)
 			(effects
 				(font
@@ -3442,7 +4294,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3457,7 +4309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e197bb3-2d78-4b4b-bcad-4d6cf78f1c8b")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 72.898 25.4 90)
 			(effects
 				(font
@@ -3509,7 +4361,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3525,7 +4377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1efb9ea-61f5-40d3-93a5-ffaa316c87d1")
-		(property "Reference" "DIV_OUT6"
+		(property "Reference" "OUT_6"
 			(at 99.06 46.3549 0)
 			(effects
 				(font
@@ -3582,7 +4434,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT6")
+					(reference "OUT_6")
 					(unit 1)
 				)
 			)
@@ -3598,7 +4450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3a93188-7b1e-4142-ab69-df5ef296c3d9")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 78.486 119.6974 90)
 			(effects
 				(font
@@ -3616,7 +4468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -3670,7 +4522,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3685,7 +4537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a90437cb-17c9-4a73-b785-559b97407205")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 24.638 82.55 90)
 			(effects
 				(font
@@ -3737,7 +4589,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3752,7 +4604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab0c1576-643a-4c9b-bc74-191a4be6413d")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 24.638 54.61 90)
 			(effects
 				(font
@@ -3805,7 +4657,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3821,7 +4673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af8162b1-a959-4f6f-b685-facc5e4f4907")
-		(property "Reference" "DIV_OUT5"
+		(property "Reference" "OUT_5"
 			(at 99.06 18.4149 0)
 			(effects
 				(font
@@ -3878,7 +4730,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT5")
+					(reference "OUT_5")
 					(unit 1)
 				)
 			)
@@ -3893,7 +4745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b753f182-0419-475a-9800-e79697f42e28")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 33.02 18.288 90)
 			(effects
 				(font
@@ -3945,7 +4797,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3961,7 +4813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba7452be-8c8f-4a4c-9626-8ac38c4c929b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 87.63 114.3 0)
 			(effects
 				(font
@@ -4011,7 +4863,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4027,7 +4879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1812c0-0dd1-45f6-9793-7da30ecbd6a2")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 39.37 31.75 0)
 			(effects
 				(font
@@ -4077,7 +4929,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4093,7 +4945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf725ef2-2b22-43ff-bccd-82f48476e3b2")
-		(property "Reference" "DIV_OUT3"
+		(property "Reference" "OUT_3"
 			(at 50.8 74.2949 0)
 			(effects
 				(font
@@ -4150,7 +5002,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "DIV_OUT3")
+					(reference "OUT_3")
 					(unit 1)
 				)
 			)
@@ -4166,7 +5018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c10faeed-67d2-414e-ade4-d5ba888784ef")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 26.67 74.93 0)
 			(effects
 				(font
@@ -4216,7 +5068,140 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR026")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c11a9885-5d0f-44f4-a83d-30f4fc98054d")
+		(property "Reference" "R27"
+			(at 121.158 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 123.19 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 121.412 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "758cdc69-231d-417d-bb00-8e925c9b7760")
+		)
+		(pin "2"
+			(uuid "6edc69f7-29b1-4cf1-b290-0a7fb48631c7")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7d8b9e4-0822-4b0c-849b-8cf4d72f9e6e")
+		(property "Reference" "#PWR041"
+			(at 135.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bb2e9a3-a3ce-40b7-89b8-9582f736311f")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4231,7 +5216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cba4e1fc-6e84-46a9-ac70-cbb9378ba57e")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 34.29 46.228 90)
 			(effects
 				(font
@@ -4283,7 +5268,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4299,7 +5284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd30c065-a027-404f-87a8-209e3846cfd4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 39.37 114.3 0)
 			(effects
 				(font
@@ -4349,7 +5334,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4364,7 +5349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2217b16-78c7-44d4-bd29-a25dc2309760")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 72.898 54.61 90)
 			(effects
 				(font
@@ -4416,7 +5401,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4432,7 +5417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e267cba5-77ee-4910-8133-95b9867412cb")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 26.67 130.81 0)
 			(effects
 				(font
@@ -4482,7 +5467,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4498,7 +5483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e290927e-0d4e-4ff5-9ac4-64ffb84cf6f7")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 30.226 34.6074 90)
 			(effects
 				(font
@@ -4516,7 +5501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 26.67 34.29 0)
 			(effects
 				(font
@@ -4570,7 +5555,80 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D6")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 142.24 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37b0302-038e-40cd-83d7-eee0e8dee556")
+		(property "Reference" "OUT_9"
+			(at 147.32 18.4149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ3001F"
+			(at 147.32 20.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "2dc17b2e-64cf-49e8-9468-141c76f6b13b")
+		)
+		(pin "T"
+			(uuid "69d7d605-d440-424e-802b-f33e3a667754")
+		)
+		(pin "TN"
+			(uuid "e61b7e14-824c-4d1e-b3ed-bc790b186d1c")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "OUT_9")
 					(unit 1)
 				)
 			)
@@ -4585,7 +5643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8e3feb8-cde6-4d3f-aa72-32fa6977e7be")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 33.02 102.108 90)
 			(effects
 				(font
@@ -4637,7 +5695,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4653,7 +5711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaaec27b-82b4-4fa0-8aa8-0f6f2f1ceed7")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 78.486 91.7574 90)
 			(effects
 				(font
@@ -4671,7 +5729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -4725,7 +5783,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4741,7 +5799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec50f759-8bea-4274-bc8f-557bd94cf6e2")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 78.486 63.8174 90)
 			(effects
 				(font
@@ -4759,7 +5817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 74.93 63.5 0)
 			(effects
 				(font
@@ -4813,7 +5871,7 @@
 		(instances
 			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
