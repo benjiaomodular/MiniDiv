@@ -1724,6 +1724,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2558aab0-687c-41d3-ba3c-766cf21d90ea")
 		)
@@ -1852,6 +1861,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -1999,6 +2017,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "1b5304b9-1d7a-433a-b85b-9ab686f803c9")
 		)
@@ -2130,6 +2157,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -2274,6 +2310,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "200b899a-325f-4506-91d8-10217db1e11f")
 		)
@@ -2362,6 +2407,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e192ad41-7d1b-415e-ae10-26280fc91abf")
 		)
@@ -2421,6 +2475,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 26.67 110.49 0)
 			(effects
 				(font
@@ -2557,6 +2620,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 45.72 20.32 0)
 			(effects
 				(font
@@ -2770,6 +2842,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "da887347-03f7-4a98-b794-6b44c45de085")
 		)
@@ -2861,6 +2942,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e511916f-26d0-4451-940e-abf6c01b246a")
 		)
@@ -2920,6 +3010,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 26.67 25.4 0)
 			(effects
 				(font
@@ -3061,6 +3160,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7ad8f42-eb03-4495-ac03-7d946b01c279")
 		)
@@ -3194,6 +3302,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 129.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "896afb41-3302-455b-b1ed-eb1b84d7580e")
 		)
@@ -3253,6 +3370,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" " https://mou.sr/3MKtPCB"
 			(at 81.28 20.32 0)
 			(effects
 				(font
@@ -3328,6 +3454,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ffa5770-dbb7-47f6-b0a1-f7e04e246488")
 		)
@@ -3390,6 +3525,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 142.24 48.26 0)
 			(effects
 				(font
@@ -3489,6 +3633,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1057d083-c167-4211-9d7b-1d12716239c7")
 		)
@@ -3577,6 +3730,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "376f014f-da50-4c26-a33a-3e424912edeb")
 		)
@@ -3636,6 +3798,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" " https://mou.sr/3MKtPCB"
 			(at 33.02 76.2 0)
 			(effects
 				(font
@@ -3711,6 +3882,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4720c5d6-e416-4337-961b-b74963b798ef")
 		)
@@ -3778,6 +3958,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9fc6bbd-0567-47b1-8b2b-91a5275d683e")
 		)
@@ -3837,6 +4026,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" " https://mou.sr/3MKtPCB"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -3991,6 +4189,15 @@
 			)
 		)
 		(property "Manufacturers Part Number" "3ARG4HWC"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 123.19 35.56 0)
 			(effects
 				(font
@@ -4219,6 +4426,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84428876-1e43-4259-b9b7-0a0d3c9da49f")
 		)
@@ -4352,6 +4568,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 74.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a95efc8-78c5-4f8c-ac91-6af7d9d11f1a")
 		)
@@ -4414,6 +4639,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 93.98 48.26 0)
 			(effects
 				(font
@@ -4513,6 +4747,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1bef065-9c0a-4271-a55b-2e42598c33e3")
 		)
@@ -4572,6 +4815,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 26.67 82.55 0)
 			(effects
 				(font
@@ -4640,6 +4892,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 26.67 54.61 0)
 			(effects
 				(font
@@ -4718,6 +4979,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 93.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "5aa4b40b-b4c6-41b7-ab14-1940b3d85363")
 		)
@@ -4780,6 +5050,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" " https://mou.sr/3MKtPCB"
 			(at 33.02 20.32 0)
 			(effects
 				(font
@@ -4990,6 +5269,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "15059f69-b630-4ab1-ba46-6b9671269ab0")
 		)
@@ -5118,6 +5406,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 123.19 54.61 0)
 			(effects
 				(font
@@ -5259,6 +5556,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c61b0371-7c16-44c0-9cf9-7ea89064cde3")
 		)
@@ -5384,6 +5690,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -5546,6 +5861,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d11ad732-85ba-489f-b420-00b20dbef627")
 		)
@@ -5616,6 +5940,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "2dc17b2e-64cf-49e8-9468-141c76f6b13b")
 		)
@@ -5678,6 +6011,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" " https://mou.sr/3MKtPCB"
 			(at 33.02 104.14 0)
 			(effects
 				(font
@@ -5774,6 +6116,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62602096-28ca-4bc2-8e1f-5dd12fd3a19c")
 		)
@@ -5854,6 +6205,15 @@
 			)
 		)
 		(property "Manufacturers Part Number" "3ARG4HWC"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 74.93 63.5 0)
 			(effects
 				(font

@@ -6782,6 +6782,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/4el3qXS"
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d703c6f-73cc-488c-bd83-e6ccb0efb338")
 		)
@@ -6843,6 +6852,15 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -6914,6 +6932,15 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 34.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -7135,6 +7162,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 114.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f6953d5-6d34-42b1-8675-7c1bd6171b00")
 		)
@@ -7179,7 +7215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 100.33 167.64 0)
 			(effects
 				(font
@@ -7198,6 +7234,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 100.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/4dWmV9p"
 			(at 100.33 167.64 0)
 			(effects
 				(font
@@ -7292,6 +7337,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "6f7b2811-35ec-4d79-9eeb-953537b2aecf")
 		)
@@ -7354,6 +7408,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/3MINYsI"
 			(at 82.55 34.29 0)
 			(effects
 				(font
@@ -7494,6 +7557,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/47m5xIo"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a020692c-8b77-45d6-b424-7711681b29dc")
 		)
@@ -7590,6 +7662,15 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 256.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 256.54 149.86 0)
 			(effects
 				(font
@@ -7807,6 +7888,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/47m5xIo"
+			(at 173.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df8de748-3c17-4343-acf1-37efb2c35a5b")
 		)
@@ -7913,6 +8003,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 27.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "fd00a9cf-beca-4427-9416-bfb286394f99")
 		)
@@ -7980,7 +8079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3.9"
 			(at 51.7652 146.05 0)
 			(effects
 				(font
@@ -7999,6 +8098,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/4ekMqRc"
 			(at 50.8 142.24 0)
 			(effects
 				(font
@@ -8110,6 +8218,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/3XEhTbD"
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b179624-ea26-4d08-98e5-ebd014fd7e06")
 		)
@@ -8169,6 +8286,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 173.99 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 173.99 26.67 0)
 			(effects
 				(font
@@ -8299,6 +8425,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/3MINYsI"
+			(at 24.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aecd657a-e0f2-45a4-833c-fbe4c1a2d55a")
 		)
@@ -8407,7 +8542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3.9"
 			(at 51.7652 158.75 0)
 			(effects
 				(font
@@ -8426,6 +8561,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 50.8 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/4ekMqRc"
 			(at 50.8 154.94 0)
 			(effects
 				(font
@@ -8568,6 +8712,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/47m5xIo"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55d9abd7-40c9-486f-8181-547456cd7d16")
 		)
@@ -8663,6 +8816,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -8768,6 +8930,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 86.36 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 86.36 168.91 0)
 			(effects
 				(font
@@ -8899,6 +9070,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/4e5fI6P"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f0e80c6-31c7-40a8-972a-a87b94b830b3")
 		)
@@ -8984,6 +9164,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/4el3qXS"
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cca02d7-3374-44ec-b232-69f144c3e553")
 		)
@@ -9043,6 +9232,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 173.99 80.01 0)
 			(effects
 				(font
@@ -9231,6 +9429,15 @@
 			)
 		)
 		(property "Manufacturers Part Number" "TMK212BBJ106KG8T"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/4e5fI6P"
 			(at 104.14 124.46 0)
 			(effects
 				(font
@@ -9573,6 +9780,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8642b18-09dc-4b57-a357-d6cc688cd31c")
 		)
@@ -9700,6 +9916,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 72.39 168.91 0)
 			(effects
 				(font
@@ -9852,7 +10077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
 			(at 118.11 43.18 0)
 			(effects
 				(font
@@ -9871,6 +10096,15 @@
 			)
 		)
 		(property "Description" "Binary Counter 12 stages (Asynchronous)"
+			(at 118.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 118.11 43.18 0)
 			(effects
 				(font
@@ -9980,6 +10214,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -10178,6 +10421,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "0ca7c997-512a-452c-8e7a-b6c7038be501")
 		)
@@ -10350,6 +10602,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/3XEhTbD"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60f52da2-ca3b-40be-a8fd-874d060684e7")
 		)
@@ -10409,6 +10670,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 214.63 97.79 0)
 			(effects
 				(font
@@ -10512,6 +10782,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 173.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 173.99 46.99 0)
 			(effects
 				(font
@@ -10688,6 +10967,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/4ekMsbM"
+			(at 77.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fe282ab-6763-4adb-8f24-5eed9cf7e7df")
 		)
@@ -10729,7 +11017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 73.66 29.21 0)
 			(effects
 				(font
@@ -10748,6 +11036,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/4dWmV9p"
 			(at 73.66 29.21 0)
 			(effects
 				(font
@@ -10926,6 +11223,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/4ekMsbM"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a24b05d3-7fbf-4f33-b6c4-a3b93957845d")
 		)
@@ -11032,7 +11338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 73.66 74.93 0)
 			(effects
 				(font
@@ -11051,6 +11357,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/4dWmV9p"
 			(at 73.66 74.93 0)
 			(effects
 				(font
@@ -11275,6 +11590,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/47m5xIo"
+			(at 173.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c528d9af-6e1a-43fc-817b-d077a2310813")
 		)
@@ -11453,6 +11777,15 @@
 			)
 		)
 		(property "Manufacturers Part Number" "RC0603FR-07100KL "
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/4el3qXS"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -11659,6 +11992,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/47m5xIo"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0017b73e-0993-4b83-aace-601f20860118")
 		)
@@ -11762,6 +12104,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6379ff7-15e6-4f41-b87f-cdcae5eb92f8")
 		)
@@ -11839,6 +12190,15 @@
 			)
 		)
 		(property "Manufacturers Part Number" "RD901F-40-15R1-B100K"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 215.9 86.36 0)
 			(effects
 				(font
@@ -12053,6 +12413,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 129.54 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00037baa-c9c1-40cf-879a-593f47ec3440")
 		)
@@ -12157,6 +12526,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" "https://mou.sr/3XEhTbD"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32be805a-223c-441c-a9d1-8ebe328e9924")
 		)
@@ -12224,6 +12602,15 @@
 				(hide yes)
 			)
 		)
+		(property "URL" ""
+			(at 97.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8e7f789-8f75-4384-8ed7-0bbb3310527c")
 		)
@@ -12283,6 +12670,15 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 237.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/47m5xIo"
 			(at 237.49 149.86 0)
 			(effects
 				(font
@@ -12407,6 +12803,15 @@
 			)
 		)
 		(property "Manufacturers Part Number" "3ARG4HWC"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 82.55 43.18 0)
 			(effects
 				(font
