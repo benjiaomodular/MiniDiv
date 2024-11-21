@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniDiv")
-		(rev "v0.2")
+		(rev "0.2")
 		(company "benjiaomodular")
 	)
 	(layers
@@ -15881,7 +15881,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at -0.4125 3.9 0)
+			(at -2.7 -0.1 0)
 			(layer "B.SilkS")
 			(uuid "08a20360-13d8-4735-8e2f-4c1ee3542de0")
 			(effects
@@ -21846,7 +21846,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
-			(at 3.2 0.1 0)
+			(at 3.425 0.1 0)
 			(layer "B.SilkS")
 			(uuid "1c766a7f-e0ff-4117-92e5-61af5ea7669e")
 			(effects

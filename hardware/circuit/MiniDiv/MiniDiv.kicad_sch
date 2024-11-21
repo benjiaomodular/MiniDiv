@@ -10068,7 +10068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4040"
+		(property "Value" "CD4040BNSR"
 			(at 112.268 45.72 0)
 			(effects
 				(font
@@ -10104,7 +10104,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3YF284K"
 			(at 118.11 43.18 0)
 			(effects
 				(font
