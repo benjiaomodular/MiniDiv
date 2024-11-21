@@ -395,12 +395,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4bf83841-113f-46f4-843d-9d1b83cf0a0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f319390-33b3-4f4a-858b-488a67a45e78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91e4e6b7-2767-433f-9e95-80423550dbc6")
 			(effects
 				(font
 					(size 1 1)
@@ -781,12 +807,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30d0e63f-15e8-48e2-aa5e-24b67fd9a3ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dda6e547-d35c-4bdd-8e36-cf5ada802527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48b50112-6dcb-4d23-b261-7663795cb642")
 			(effects
 				(font
 					(size 1 1)
@@ -1344,12 +1396,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/push-button-switch-dc-30v-0-1a-dpdt-7x7mm.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e1df4af-35be-4bee-b7d6-f43c39e4024a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "DAIER"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ccb72f6-e7a5-448f-b3fa-ddcf292e4bef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PB-22E27-ROHS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b461b0-4244-4d4e-a30a-f4266b3156bd")
 			(effects
 				(font
 					(size 1 1)
@@ -1531,38 +1609,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74f7b83b-4fb2-449f-aa14-7cf3985fbd4e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c17e9541-aad6-485a-9ea3-9d469cb0e81a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a47c1bb4-6bd7-4ec4-9022-51b916174906")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "503dcb06-08cc-4a7d-ad45-ed1e2f8d4630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16d0a435-d122-49a6-81ec-03be16fd0dbf")
 			(effects
 				(font
 					(size 1 1)
@@ -1800,12 +1878,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6f90534-1296-45ba-833e-73e60a77a8bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "247776ea-ffb0-494e-893d-136808d31883")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e81a8671-c94b-4dcf-a762-588a043fd286")
 			(effects
 				(font
 					(size 1 1)
@@ -2191,38 +2295,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f22fe683-58dd-48f8-a70a-bf1c735c20e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d17755f-403d-4832-8ece-12e4051b0c88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "290ec132-630c-4bb3-8439-da2ae246238f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba715cf8-6161-4b50-97e7-f2849107ca54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56020b3f-d855-42ec-a4c3-d16bd01acac0")
 			(effects
 				(font
 					(size 1 1)
@@ -2637,38 +2741,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24d51c4d-8183-41e3-913d-3e6edeb243f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef39d55e-584b-4fa8-8e17-60983d845906")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c1146b7-3a57-4daf-9f0c-929eb3da0bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" " Tayda Electronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9d80ab2-651a-40d5-ac42-1686c912ae73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "LED 3mm Orange"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "515c34e5-2fdd-4cfa-9585-8eea7ef682eb")
 			(effects
 				(font
 					(size 1 1)
@@ -2918,38 +3022,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "237b513b-d640-4a28-a580-071fad357d88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c22f1f8c-0fa9-46e8-847d-6d8bcd6d73cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1941aa70-5399-4aa0-b444-77109dacfd54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "559b9da3-ff09-4282-aa49-91ec1ff45d13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81b91e8d-4824-46d8-835c-d2ecab145a7b")
 			(effects
 				(font
 					(size 1 1)
@@ -3187,12 +3291,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "decf1613-d6af-4d03-9faa-39feeb8a2716")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66d87069-cafc-4682-a97a-39c0c6c875a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf88695a-f856-41b9-9e4a-76b810c96e92")
 			(effects
 				(font
 					(size 1 1)
@@ -3578,38 +3708,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f2215364-2f3d-479f-a03b-0ee40055fa55")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4241880-5591-42f8-ba73-043dd734882d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d78739ac-08dd-4794-ae9e-9ae0817a8b7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d46aebe-2653-4cc7-8c72-fd1563e4af20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5886300b-cba8-4a0d-b6c5-5e6552b8c299")
 			(effects
 				(font
 					(size 1 1)
@@ -3852,38 +3982,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "537f3163-fd82-4a02-bb73-e0a16d9da1a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "077a4235-49c9-421d-9e7c-896a3717f089")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a3cb936-cff6-42ea-a863-5872e90ebf74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b4c5fa-6783-4c68-ae45-d437e67e27fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad35c5f9-d0c0-468a-9e04-1c19451f7a6d")
 			(effects
 				(font
 					(size 1 1)
@@ -4121,12 +4251,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7c12eb0-2c34-4499-9ed9-8cce8064dc95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7120758d-9678-47d3-a6b2-427eb94f9d02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2c9af42-49f7-4fb7-a99e-e887b83e756d")
 			(effects
 				(font
 					(size 1 1)
@@ -4507,12 +4663,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de96fa6f-50a0-4732-a9b8-8c448e8f0095")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dbcae7f-bdac-42a1-b0ce-498d6d6748a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2f50709-2cf1-40c0-aa57-a35188e42a53")
 			(effects
 				(font
 					(size 1 1)
@@ -7842,38 +8024,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86e6681e-8881-495a-9463-73a2558472d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9761c173-42f1-4f42-9fed-bcc04b925690")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68e952e3-756c-4842-b708-ce7bd95ace1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96fa1d30-8b21-4003-ae34-81130891f377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "913980bd-2d60-4b1c-b907-26786f629b4a")
 			(effects
 				(font
 					(size 1 1)
@@ -8111,12 +8293,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29314dce-c315-4f9f-a006-9c2627810554")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b97ca970-0504-4e4b-b629-2cb594d68650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee092a07-8f0c-445f-90b0-f896fbfe5ef1")
 			(effects
 				(font
 					(size 1 1)
@@ -8497,38 +8705,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "Tayda Electronics"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "352f93cd-9332-4f6b-bce7-7988f552cdd9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "PJ-3001F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59a60d09-9b32-4da8-89c5-1d69c85d3231")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6d39ac0-64d0-466f-b6d9-bae0061a7ec5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea12bbd9-e44f-49ce-ab95-8ecb29508695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a5918dc-df5f-479c-b068-42cdefd3d521")
 			(effects
 				(font
 					(size 1 1)
@@ -9081,12 +9289,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bbfab9d-f82d-45a7-9146-34b8c1fe4404")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "676b6807-99e7-471d-a323-3bedd650148f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a531daf-b7a3-4920-afbf-5682c8a75551")
 			(effects
 				(font
 					(size 1 1)
@@ -9472,38 +9706,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf431943-3a8e-41d4-acbb-f2cfcfa2419f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d7df5d8-93f5-4318-9cc6-f38da4fbd0f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0dfd75de-7cbc-4ae1-97ca-1e7c142da108")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f11f823-91da-472e-b61d-a38be3340b00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ac00e1b-6e47-4e14-8b26-f5d06471cc93")
 			(effects
 				(font
 					(size 1 1)
@@ -9746,38 +9980,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "876455c6-a6ad-4185-91f8-392a1ae09d4f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7bf66ac3-f200-4c2a-909a-5acc5dfc869f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d1e2728-d44f-48e4-8687-d79cd6449f3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0a70e60-2e03-4604-8507-04602aea57aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "007af5ce-7b8c-4870-9a72-7f520fee5196")
 			(effects
 				(font
 					(size 1 1)
@@ -10192,38 +10426,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de39b484-4569-482d-9fe2-3a8c9a0e7d01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56f88a60-6739-40ba-a064-b04b42c7b450")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe03125c-22f8-4de5-b690-9d52522870f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20fa24d2-b8d3-4604-89ac-ed203f535012")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec904f7-5812-490f-aa0d-73a59f4e9a05")
 			(effects
 				(font
 					(size 1 1)
@@ -10633,12 +10867,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e33a0886-9fad-40e9-bb7b-4633929619e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "342d77ee-c90b-4246-85df-ec628066d9d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2347d6c3-d985-4a12-bd50-85dda72c48bd")
 			(effects
 				(font
 					(size 1 1)
@@ -11160,38 +11420,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "Alpha (Taiwan)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3698b1d0-27bd-4b5c-aa38-980e3c99a4bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "RD901F-40-15R1-B100K"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "51d8cf24-d6a7-4e05-afb2-87f04cd63a70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c2933c9-1d9a-4a1d-b442-b66074d27523")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha (Taiwan)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85001b77-c082-4574-bc99-9a80a6167e21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "RV09AF-40-20K-B100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c3ccfe5-e094-4776-be63-3f97b7ca6b83")
 			(effects
 				(font
 					(size 1 1)
@@ -11841,12 +12101,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30310039-f8d5-47c6-99c4-b0789520e38e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bcbe9d2-9d78-41a8-aaa3-d281205f738d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fad1bad6-c865-45fd-ba7e-ac560c01a075")
 			(effects
 				(font
 					(size 1 1)
@@ -12227,12 +12513,38 @@
 				)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cda84068-aa2b-4d58-a3aa-aee65c374ed8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "007940e8-5b42-4160-98e9-ecdea36af842")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e879147b-4ae2-4463-bdc4-df72fd717b7d")
 			(effects
 				(font
 					(size 1 1)
@@ -12790,38 +13102,38 @@
 				)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f59a204-87e4-4f68-8dbf-9e2423924068")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c12d5ba-2bdb-4b4b-b058-09bf74737bd7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84ed15bd-896b-4209-a1ba-9107f05d0363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87def15d-80ce-4aee-a893-4a8e4023ed43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d6c74e2-28e8-483c-b43e-2ea68528e8d6")
 			(effects
 				(font
 					(size 1 1)
@@ -13083,6 +13395,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b6c76c7-747e-4dd2-9e63-12a592e20ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8a51462-9e0a-4c72-92ed-d1f54890b8b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/51ccf3e9-bce8-48ba-9bff-437eb103f69b")
 		(sheetname "Outputs")
@@ -13302,40 +13642,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "Taiyo Yuden"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "15d0a754-afb0-4386-b8da-a10f11532a15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "TMK212BBJ106KG8T"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "be8d10c3-ab2f-40c1-8ba0-7fc710f6404a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "URL" "https://mou.sr/4e5fI6P"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b4680375-2cce-403d-93a7-441d532f126a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "97d19718-c4e1-4fc0-be09-6441f6a5951c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "TMK212BBJ106KG8T"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f2ee9123-eaf5-4838-a04f-32f981ab638b")
 			(effects
 				(font
 					(size 1 1)
@@ -13591,34 +13931,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Part Number" "CC0603KRX7R8BB334"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "88dd12b2-9f69-4640-a406-d497b9ae2e7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Name" "YAGEO"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f92fcb39-e534-449e-b9ce-23de41489336")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Type" "Surface mount"
 			(at 0 0 0)
 			(unlocked yes)
@@ -13667,6 +13979,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee704daa-1a08-4b9a-b961-08011eb1ca2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "584867b8-1547-4ece-964a-ada0d62790fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "CC0603KRX7R8BB334"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30cfb74e-084a-45f4-9687-d600892881e2")
 			(effects
 				(font
 					(size 1 1)
@@ -13908,6 +14248,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d903dac2-a543-436e-8be0-40ac8fb85d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4df70608-649c-479a-a31c-8d049baa6a02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/cba4e1fc-6e84-46a9-ac70-cbb9378ba57e")
 		(sheetname "Outputs")
@@ -14127,34 +14495,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "Diodes Incorporated"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "aa16bc28-42ae-4c95-bd18-c20f91caa454")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "1N4148WQ-7-F"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "85f1e792-1737-4d0c-b881-7a6de3d280b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -14189,6 +14529,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3f74334e-552e-4978-aad8-45cadc874484")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b7d1c49c-04f5-4367-8bbe-d2aba0f9ee33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "1N4148WQ-7-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01d70809-126c-45a4-9403-05aa9c5a68f7")
 			(effects
 				(font
 					(size 1 1)
@@ -14504,6 +14872,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e1b5dd4d-22b2-4fc1-8ace-3c44c09b28aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68946ad8-78da-478f-ba14-24ebc3e58c5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "X9555WV-2X05-6TV01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a904f6da-9914-42ba-ad0f-a92893837957")
 			(effects
 				(font
 					(size 1 1)
@@ -15016,12 +15412,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/4ebt4y6"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e0655f67-6c1d-41b3-b8c3-dd37650c23f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fe1f65eb-48e2-47a0-a9c1-72eb3f155bfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "CR0603-FX-3302ELF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cdcaaa04-e3c5-4502-9695-9ddffc4dc5e6")
 			(effects
 				(font
 					(size 1 1)
@@ -15263,6 +15687,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "545877ca-8853-42ee-8993-f8112edce70c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3168baba-7dd4-4d64-ad75-e7aa78d2e223")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/88cbb0e4-c0c4-4c73-b915-38e8acaf779f")
 		(sheetname "Root")
@@ -15488,6 +15940,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "479b3410-6ff4-4e92-a010-1f1fd68bcb01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef94057f-9619-4dab-a009-0dc8eff6a4d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "EEE-FT1V220AR"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d186914-5668-4797-8ad5-007f1c936ad7")
 			(effects
 				(font
 					(size 1 1)
@@ -15946,40 +16426,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "YAGEO"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9139bba9-7c1b-4217-a28b-5625cdd75be6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "RC0603FR-07100KL "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "618722f7-9c00-422a-9d25-4c55d438e43c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "URL" "https://mou.sr/4el3qXS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "83e9d15b-f5c2-4696-bd0f-64a7a634a57c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c51bd9f-060a-4148-87cf-1a9b8f9c077d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d692e12a-45d1-4b9c-9e82-649d430faa22")
 			(effects
 				(font
 					(size 1 1)
@@ -16221,6 +16701,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e98c07f-fbd8-40fd-bc18-41d60d2e8ba8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "AC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68e42c14-d614-4a35-ba93-08e675f4fbd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/101d06e8-a42f-44b1-af28-11ddead5a035")
 		(sheetname "Root")
@@ -16446,6 +16954,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b9c6adb1-3585-4c76-8d83-08a8ff45c980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0b45779-fd5c-4278-8ec4-7b35f7b61f82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a4f3f26-83b0-4cc8-a31d-3f7457a60f49")
 			(effects
 				(font
 					(size 1 1)
@@ -16687,6 +17223,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "27359bc6-45c9-45b9-a747-b0b456eb2ae3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bb142ce-08f6-4fa5-b9fd-2d015707abc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/634baa3d-8d54-482a-a902-482c5b01e301")
 		(sheetname "Outputs")
@@ -16906,12 +17470,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "56bfe103-44dc-49d7-81da-726f2c75921b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a9e565c-9bd1-4489-95f6-95004c34fbb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2192fa6-e683-4e5c-ba32-ef80c896e550")
 			(effects
 				(font
 					(size 1 1)
@@ -17139,12 +17731,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b90d8bef-d1d1-4891-9dda-24bd0d7e9805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2bc12767-217f-4bb3-a792-1f303ac5a189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "631aeafb-e2e6-4756-9d65-9deb46765863")
 			(effects
 				(font
 					(size 1 1)
@@ -17378,6 +17998,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b4133d79-9227-4d22-97a4-e491f6169294")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e663be4-dafb-406b-97a7-0c09445003d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "EEE-FT1V220AR"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ce350b3-8d0f-45ff-9e52-44c3b736df15")
 			(effects
 				(font
 					(size 1 1)
@@ -17836,34 +18484,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "Diodes Incorporated"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cf036e00-c379-4b50-ae17-7f7eccc5f645")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "1N4148WQ-7-F"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3e1c9adc-fab0-4703-9ae5-000b6977b51f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -17898,6 +18518,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c850b604-fac8-44e1-8f8f-ee53a39b8ecd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "41299e8d-9be4-4ff4-85e9-aad6ad01688e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "1N4148WQ-7-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a07a139d-70f3-4b8e-ac2d-400ccfdfe837")
 			(effects
 				(font
 					(size 1 1)
@@ -18207,40 +18855,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "YAGEO"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "93d34975-72d8-4736-b431-e84137ffd7b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "RC0603FR-07100KL "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "190e9201-b044-4f72-99cb-e56878e17456")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "URL" "https://mou.sr/4el3qXS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "13d8e829-2be1-40dc-b279-9593f170b467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b5eb88f-fa00-430a-812f-859a05f0522e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90c3fc1f-9d0e-4b97-86de-4fd66e041470")
 			(effects
 				(font
 					(size 1 1)
@@ -18468,12 +19116,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/4ecU9jY"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "219cff5d-bdcd-4061-b1d7-66e53696f9de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef7155f7-3a75-4f4a-93fe-53fbff4f8859")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-7W3K3L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7274babd-7aca-44da-9436-13a47f085cbf")
 			(effects
 				(font
 					(size 1 1)
@@ -18701,40 +19377,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "YAGEO"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9577549c-070c-4ac2-880c-e8faca1467c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "CC0805KRX7R9BB104"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ac0878d8-e1c0-4255-a36a-d1062c713ecf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "URL" "https://mou.sr/4ekMsbM"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c9dfa92e-d567-43c2-9906-b4847d5bfd78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5fba42f-f6cc-4f79-9b2b-7c99748dcf14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "CC0805KRX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5720e24c-a879-4222-b4a5-2805c69c4107")
 			(effects
 				(font
 					(size 1 1)
@@ -18976,6 +19652,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3fed015d-1c36-4ae6-9eec-ea614767654e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b59e01eb-b841-4819-855f-62124ba0eac0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/b753f182-0419-475a-9800-e79697f42e28")
 		(sheetname "Outputs")
@@ -19195,12 +19899,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "103cf3b5-993a-47e7-8d01-521d6c8cdfc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90463a5c-adfd-46a0-9017-fb89cf31f1cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a61e7f3-9712-41df-843f-e962cb073e75")
 			(effects
 				(font
 					(size 1 1)
@@ -19442,6 +20174,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04a9258d-814e-4d18-a53f-cd313d0477f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL "
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1cc0533a-37c4-4320-a430-aff040cdba05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/01dda37b-2a55-48b6-bd83-5c6ce0b4bc85")
 		(sheetname "Root")
@@ -19661,12 +20421,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b6ebf00f-e54a-44f6-ab30-03c951fcd9eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7399cd2a-ddd8-432e-84ef-0cbd8068b037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5c2da66-7fcc-4e3d-9c38-73460dc9a6e4")
 			(effects
 				(font
 					(size 1 1)
@@ -19900,6 +20688,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4ae02183-e200-47a2-99d1-564c6f17b7a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "LM358PSR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d1b329f7-69b3-4e7b-88d4-c5626d174dca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7ae4d8af-0f0e-4ad7-9ed3-fa6cde9c921a")
 			(effects
 				(font
 					(size 1 1)
@@ -20283,6 +21099,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9271f25d-726f-4bc9-90b1-b93157ca6381")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6f0b77aa-031b-4375-9b30-e9792203d07f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/33ffebd7-7e55-4362-b46a-59dda4b92349")
 		(sheetname "Outputs")
@@ -20502,12 +21346,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a76b54dc-0324-4d16-81e2-d1a0f0d5285a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7768b521-a608-448e-ac82-588bffd39cf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "10b77285-6ad5-4d5e-bff4-b78727d50ce5")
 			(effects
 				(font
 					(size 1 1)
@@ -20735,12 +21607,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3UXARYX"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "761a754c-ee89-49f5-85d9-c346d0a5eb38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "LM317DCY"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf6045b7-c210-43e8-b71e-f2f63e88b631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a8918e2a-247f-4cda-8be1-6d5dd5109a11")
 			(effects
 				(font
 					(size 1 1)
@@ -21032,12 +21932,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9d15d068-4717-4298-ab13-b213a6925166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "75dfa0af-7f32-45d0-9a9f-4bf155de514c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c511917-019f-4433-959c-8dd12e535d02")
 			(effects
 				(font
 					(size 1 1)
@@ -21265,40 +22193,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "Taiyo Yuden"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5197c827-caeb-415e-86e6-c289280a7e25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "TMK212BBJ106KG8T"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8123fd54-95da-4145-8a50-29cb1c46a9dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "URL" "https://mou.sr/4e5fI6P"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0de440fe-b77d-498e-9691-f7b65cdae99f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e4147466-bde3-493d-94bd-0259e8d705b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "TMK212BBJ106KG8T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3f57cb8f-523c-4bdb-aeb7-2e49f74f51e4")
 			(effects
 				(font
 					(size 1 1)
@@ -21532,6 +22460,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0087b5d6-18b7-46f0-aa2f-8f72eee10de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "CD40106BM"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "980eeab8-e5ed-4379-9580-dc88313dd328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "Texas Instruments"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8158f2ac-3aba-4172-bd49-4678192a3e89")
 			(effects
 				(font
 					(size 1 1)
@@ -21911,34 +22867,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "Diodes Incorporated"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7ea67f86-0274-4e27-9494-6d93d0fc909b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "1N4148WQ-7-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "85a467f1-e1db-45ac-912e-2072b76b4462")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Sim.Device" "D"
 			(at 0 0 0)
 			(unlocked yes)
@@ -21973,6 +22901,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8fcfd43f-db16-4e21-807c-c05dd9128125")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0580455a-6f97-4937-95a9-06149628e9c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "1N4148WQ-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "38cce228-7fbb-4d81-b48d-fb3f533af912")
 			(effects
 				(font
 					(size 1 1)
@@ -22282,12 +23238,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "effd2b6e-245a-46be-b7c5-713797d953b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b18c63a-683b-4773-8c45-aefb7c21d6be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d8691661-a675-408e-9865-2269bdd2d422")
 			(effects
 				(font
 					(size 1 1)
@@ -22461,7 +23445,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CD4040"
+		(property "Value" "CD4040BNSR"
 			(at 0 -6.05 -90)
 			(layer "B.Fab")
 			(uuid "dac3d01d-ef21-40a6-a1eb-80761c03ff58")
@@ -22512,12 +23496,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3YF284K"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e4aadd49-7087-4201-aa74-7264e40bf166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "CD4040BNSR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "11fa1c8b-a644-425b-94d1-ec66a44f98d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "953f8bce-b8eb-4d23-a30e-329eb2ad4d41")
 			(effects
 				(font
 					(size 1 1)
@@ -22983,6 +23995,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c9441a7-8c4a-4b31-9191-bd4d3c432d89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e39a77b6-9ea1-4ac9-ab7f-afaea1160d34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/6d8da89d-67c4-430c-afe1-41e543100d10")
 		(sheetname "Outputs")
@@ -23216,6 +24256,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1ecea76d-edc7-4a1d-906a-8e30292221a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7ae5e5e1-ce43-4398-b50b-f0ebd8985659")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/e8e3feb8-cde6-4d3f-aa72-32fa6977e7be")
 		(sheetname "Outputs")
@@ -23435,12 +24503,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/4eDk59h"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6bf38aa6-3de6-4581-9ce5-9f811101c690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Vishay / Vitramon"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b2e8155-4a7e-4114-86ba-923eca6beafe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "VJ0805G475KXQTW1BC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "59373a2d-43fc-4ed7-9745-50146417ef9a")
 			(effects
 				(font
 					(size 1 1)
@@ -23668,12 +24764,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0d1e5963-b591-4825-92c9-a8a0477e3657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e350511-a4b8-491e-8978-848a38c86516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "00547509-dc1b-403a-a7d5-d89bd1e12f28")
 			(effects
 				(font
 					(size 1 1)
@@ -23901,40 +25025,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturers Name" "YAGEO"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f8991fa2-bcca-48cf-be16-834f229df79d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturers Part Number" "AC0603FR-0710KL"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "31810413-ebab-49d6-9c27-28af34c8dd45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "URL" "https://mou.sr/3MINYsI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0c55491c-fbf6-4832-8589-57f083a383a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4279d0ae-30b0-4e13-af4e-d85db6bbeb01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "AC0603FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f0491a4a-b80a-4dc5-9159-66301fa732bf")
 			(effects
 				(font
 					(size 1 1)
@@ -24176,6 +25300,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "51cb541f-1578-4b12-a7ef-e827a0659999")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a70ee83-a072-4982-a3ab-67ea4931d0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/51310f4c-365f-4d8f-8f15-22ef1499c8ce")
 		(sheetname "Outputs")
@@ -24395,12 +25547,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3181edaa-ecb3-4675-8e18-9be5f28b2e87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e12473a-c115-4822-beb8-e62c9c363a85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d9cb0c15-2f27-4ce3-99d6-695c8bce02bc")
 			(effects
 				(font
 					(size 1 1)
@@ -24628,12 +25808,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "80c7e640-5f25-41c6-a93e-78e02ec8f37f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b589e1a1-e8ed-41a1-a293-7141a9433775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ea51529-5f99-4983-88c7-2facff69d54d")
 			(effects
 				(font
 					(size 1 1)
@@ -24875,6 +26083,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b8e44215-2991-48ec-ab7b-0945c91c5d2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b6597ab6-2edc-44bb-8e16-978cca3da1ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f61739d-d153-43b0-afcf-93e674e4f3b7/65e28471-5b5d-4208-9931-98f2cb96885b")
 		(sheetname "Outputs")
@@ -25100,6 +26336,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a77fd0a4-c786-43ec-9772-e020b17bc41e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "CD40106BM"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd023313-8461-449e-82f5-88186b4c8adf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "Texas Instruments"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bb61f141-3281-4c76-829d-d02bec9a92ec")
 			(effects
 				(font
 					(size 1 1)
@@ -25479,12 +26743,40 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/47oY8bq"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "83f6008f-54c3-4374-b70a-ac030dd63a09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3477fd10-0455-470b-bc45-7cd1dd6c7e68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "RC0603FR-7W470RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0b66a0b3-d3a1-4027-8a3f-23512ed0119b")
 			(effects
 				(font
 					(size 1 1)

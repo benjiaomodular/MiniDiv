@@ -1724,7 +1724,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 74.93 82.55 0)
 			(effects
 				(font
@@ -1869,7 +1887,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -2017,7 +2053,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 93.98 104.14 0)
 			(effects
 				(font
@@ -2165,7 +2219,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -2319,6 +2391,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "200b899a-325f-4506-91d8-10217db1e11f")
 		)
@@ -2389,25 +2479,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 123.19 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 123.19 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -2483,7 +2573,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 26.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 26.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 26.67 110.49 0)
 			(effects
 				(font
@@ -2628,7 +2736,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 45.72 20.32 0)
 			(effects
 				(font
@@ -2842,7 +2968,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 45.72 104.14 0)
 			(effects
 				(font
@@ -2924,25 +3068,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 26.67 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 26.67 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 26.67 63.5 0)
 			(effects
 				(font
@@ -3018,7 +3162,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 26.67 25.4 0)
 			(effects
 				(font
@@ -3160,7 +3322,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 123.19 26.67 0)
 			(effects
 				(font
@@ -3311,6 +3491,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 129.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 129.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "896afb41-3302-455b-b1ed-eb1b84d7580e")
 		)
@@ -3387,6 +3585,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 81.28 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "026e705d-aae5-4b7c-ad7d-fc5b5c0d3660")
 		)
@@ -3454,7 +3670,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 74.93 110.49 0)
 			(effects
 				(font
@@ -3533,7 +3767,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 142.24 48.26 0)
 			(effects
 				(font
@@ -3615,25 +3867,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 74.93 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 74.93 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 74.93 34.29 0)
 			(effects
 				(font
@@ -3712,25 +3964,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 26.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 26.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 26.67 91.44 0)
 			(effects
 				(font
@@ -3815,6 +4067,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21885271-d38c-4c60-a889-3ab42b192833")
 		)
@@ -3883,6 +4153,24 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
 			(at 129.54 48.26 0)
 			(effects
 				(font
@@ -3967,6 +4255,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9fc6bbd-0567-47b1-8b2b-91a5275d683e")
 		)
@@ -4035,6 +4341,24 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -4179,25 +4503,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 123.19 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 123.19 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 123.19 35.56 0)
 			(effects
 				(font
@@ -4408,25 +4732,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 26.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 26.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 26.67 119.38 0)
 			(effects
 				(font
@@ -4568,7 +4892,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 74.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 74.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 74.93 25.4 0)
 			(effects
 				(font
@@ -4647,7 +4989,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 93.98 48.26 0)
 			(effects
 				(font
@@ -4729,25 +5089,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -4823,7 +5183,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 26.67 82.55 0)
 			(effects
 				(font
@@ -4900,7 +5278,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 26.67 54.61 0)
 			(effects
 				(font
@@ -4979,7 +5375,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 93.98 20.32 0)
 			(effects
 				(font
@@ -5059,6 +5473,24 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
 			(at 33.02 20.32 0)
 			(effects
 				(font
@@ -5269,7 +5701,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 45.72 76.2 0)
 			(effects
 				(font
@@ -5414,7 +5864,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 123.19 54.61 0)
 			(effects
 				(font
@@ -5565,6 +6033,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c61b0371-7c16-44c0-9cf9-7ea89064cde3")
 		)
@@ -5698,7 +6184,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://mou.sr/3Zl09mQ"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-074K7L"
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -5843,25 +6347,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 26.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 26.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 26.67 34.29 0)
 			(effects
 				(font
@@ -5940,7 +6444,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
 			(at 142.24 20.32 0)
 			(effects
 				(font
@@ -6028,6 +6550,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL "
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "601be8b0-a3b6-4f0e-a0ab-6c9de7df59ad")
 		)
@@ -6098,25 +6638,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 74.93 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 74.93 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -6195,25 +6735,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturers Name" "KENTO"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturers Part Number" "3ARG4HWC"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
 			(at 74.93 63.5 0)
 			(effects
 				(font

@@ -610,14 +610,14 @@
         },
         {
           "group_by": true,
-          "label": "Manufacturers Name",
-          "name": "Manufacturers Name",
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": true
         },
         {
           "group_by": true,
-          "label": "Manufacturers Part Number",
-          "name": "Manufacturers Part Number",
+          "label": "Part #",
+          "name": "Part #",
           "show": true
         },
         {
@@ -666,7 +666,7 @@
           "group_by": false,
           "label": "URL",
           "name": "URL",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
