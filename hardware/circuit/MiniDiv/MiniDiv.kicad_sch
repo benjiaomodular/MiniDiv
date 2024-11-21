@@ -6976,7 +6976,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.taydaelectronics.com/push-button-switch-dc-30v-0-1a-dpdt-7x7mm.html"
+		(property "URL" "https://www.taydaelectronics.com/push-button-switch-momentary-dc-30v-0-1a-dpdt-7x7mm.html"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -6985,7 +6985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DAIER"
+		(property "Manufacturer" " Tayda Electronics"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -6994,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "PB-22E27-ROHS"
+		(property "Part #" "KFC7x7 Momentary"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -7814,7 +7814,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.taydaelectronics.com/push-button-switch-dc-30v-0-1a-dpdt-7x7mm.html"
+		(property "URL" "https://www.taydaelectronics.com/push-button-switch-momentary-dc-30v-0-1a-dpdt-7x7mm.html"
 			(at 256.54 149.86 0)
 			(effects
 				(font
@@ -7823,7 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DAIER"
+		(property "Manufacturer" " Tayda Electronics"
 			(at 256.54 149.86 0)
 			(effects
 				(font
@@ -7832,7 +7832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "PB-22E27-ROHS"
+		(property "Part #" "KFC7x7 Momentary"
 			(at 256.54 149.86 0)
 			(effects
 				(font
