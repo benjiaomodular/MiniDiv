@@ -13,6 +13,11 @@ Project sponsored by [PCBWay](https://pcbway.com).
 
 See my full docs on my website: https://benjiaomodular.com/post/2024-11-22-minidiv-pcb/
 
+## Versions
+#### v0.2 - Initial release
+- First working version
+- ISSUE: The LEDs were preventing the jacks from going in completly. The module still works but it might cause problems in the future.
+
 ## License
 
 This work is licensed under a
