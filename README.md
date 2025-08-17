@@ -5,6 +5,8 @@ A simple clock divider based on [HAGIWO's  design](https://note.com/solder_state
 
 ![](docs/minidiv-thumb.jpg)
 
+![MiniDiv Photo](docs/minidiv-v0.3-board.jpg)
+
 ## Schematics
 ![MiniDiv Schematics](docs/minidiv-schem1.png)
 ![MiniDiv Schematics](docs/minidiv-schem2.png)
@@ -14,6 +16,11 @@ Project sponsored by [PCBWay](https://pcbway.com).
 See my full docs on my website: https://benjiaomodular.com/post/2024-11-22-minidiv-pcb/
 
 ## Versions
+#### v0.3 - Fixed LED clearance issue
+- To address LED clearance issues, I moved the LEDs to be mounted to the back, facing down, such that the LED shines through a hole on the board. 
+
+![MiniDiv Photo](docs/minidiv-v0.3-board2.jpg)
+
 #### v0.2 - Initial release
 - First working version
 - ISSUE: The LEDs were preventing the jacks from going in completly. The module still works but it might cause problems in the future.
