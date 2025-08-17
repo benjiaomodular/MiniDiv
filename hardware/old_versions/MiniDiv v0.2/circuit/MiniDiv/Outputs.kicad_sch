@@ -5,6 +5,175 @@
 	(uuid "97bbabe6-21ba-4c86-b524-6d720c5ca9bc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -126,65 +295,75 @@
 				)
 			)
 		)
-		(symbol "benjiaomodular:PJ3001F_LED"
+		(symbol "benjiaomodular:PJ3001F"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -2.54 8.128 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PJ3001F_LED"
-				(at -2.286 6.096 0)
+			(property "Value" "PJ3001F"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-				(at -2.032 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.524 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 1.524 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "PJ3001F_LED_1_1"
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJ3001F_0_1"
 				(rectangle
-					(start -6.35 0)
-					(end -5.08 -2.54)
+					(start -2.54 0)
+					(end -3.81 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -193,9 +372,57 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -5.08 3.81)
-					(end 0 -5.08)
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -204,56 +431,10 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.762 -0.254) (xy -0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 -0.635) (xy -1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -0.762 -2.54) (xy -0.762 -0.254) (xy -1.016 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -3.175 2.54) (xy -3.175 0) (xy -3.81 -0.635) (xy -4.445 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "PJ3001F_1_1"
 				(pin passive line
-					(at 2.54 2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -271,7 +452,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -289,7 +470,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -299,92 +480,6 @@
 						)
 					)
 					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PJ3001F_LED_2_1"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 -1.27) (xy 0 -2.54) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy -3.302 -4.826) (xy -2.54 -4.826) (xy -3.302 -4.826) (xy -3.302 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -3.302) (xy -2.032 -4.826) (xy -1.27 -4.826) (xy -2.032 -4.826) (xy -2.032 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -492,55 +587,55 @@
 		)
 	)
 	(junction
-		(at 132.08 20.32)
+		(at 123.19 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26f1da36-67a3-4bae-82a8-abc5238c7e86")
 	)
 	(junction
-		(at 78.74 20.32)
+		(at 74.93 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c3a022f-b77c-45a6-9db3-72e2823601a6")
 	)
 	(junction
-		(at 26.67 132.08)
+		(at 26.67 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54249451-f17e-4cc3-811b-bf8a79a67ea2")
 	)
 	(junction
-		(at 26.67 93.98)
+		(at 26.67 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56495378-20f8-4a07-bce8-78f662b5d839")
 	)
 	(junction
-		(at 132.08 55.88)
+		(at 123.19 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "648dd718-30c5-4014-9bd0-b07992fd5153")
 	)
 	(junction
-		(at 78.74 55.88)
+		(at 74.93 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "896483ac-c5b0-4854-9d78-9471cc9cd204")
 	)
 	(junction
-		(at 78.74 132.08)
+		(at 74.93 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc535b7a-5361-47d8-ab99-068014a35f36")
 	)
 	(junction
-		(at 78.74 93.98)
+		(at 74.93 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bddb37b2-99b8-459b-878f-d188acc122cf")
 	)
 	(junction
-		(at 26.67 55.88)
+		(at 26.67 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df58fe3c-c8f3-4291-9ff9-b4461a407c82")
@@ -552,19 +647,19 @@
 		(uuid "dfe5b993-5db9-46af-bbda-849076716a97")
 	)
 	(no_connect
-		(at 40.64 91.44)
+		(at 40.64 73.66)
 		(uuid "0b25e38c-a702-46e0-bbfd-e728ce75e818")
 	)
 	(no_connect
-		(at 92.71 129.54)
+		(at 88.9 101.6)
 		(uuid "1fc479e8-25f9-489d-af5c-c6493da3fc59")
 	)
 	(no_connect
-		(at 146.05 17.78)
+		(at 137.16 17.78)
 		(uuid "391104cb-f2b9-4f21-8a0b-0cb462b4f264")
 	)
 	(no_connect
-		(at 92.71 53.34)
+		(at 88.9 45.72)
 		(uuid "5cba2427-df7b-4716-804a-d4b80891cd82")
 	)
 	(no_connect
@@ -572,28 +667,28 @@
 		(uuid "6a39b949-5bb8-4d96-ad0d-0d00ad420f1d")
 	)
 	(no_connect
-		(at 92.71 17.78)
+		(at 88.9 17.78)
 		(uuid "73516e94-32fb-480a-a864-36237f0adbcd")
 	)
 	(no_connect
-		(at 40.64 53.34)
+		(at 40.64 45.72)
 		(uuid "805ca5ac-7d74-40cc-a84b-3523f2dfb744")
 	)
 	(no_connect
-		(at 146.05 53.34)
+		(at 137.16 45.72)
 		(uuid "9e2cc363-5227-4041-9f4b-ba088042ba3a")
 	)
 	(no_connect
-		(at 92.71 91.44)
+		(at 88.9 73.66)
 		(uuid "ab6770fd-f902-4c26-b840-6ef252722583")
 	)
 	(no_connect
-		(at 40.64 129.54)
+		(at 40.64 101.6)
 		(uuid "f6f5ab36-efbb-491d-b877-f7782ac96f1c")
 	)
 	(wire
 		(pts
-			(xy 92.71 58.42) (xy 91.44 58.42)
+			(xy 88.9 50.8) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -603,7 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 20.32) (xy 134.62 20.32)
+			(xy 123.19 20.32) (xy 125.73 20.32)
 		)
 		(stroke
 			(width 0)
@@ -613,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 55.88) (xy 40.64 55.88)
+			(xy 38.1 48.26) (xy 40.64 48.26)
 		)
 		(stroke
 			(width 0)
@@ -633,7 +728,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 30.48) (xy 132.08 31.75)
+			(xy 123.19 30.48) (xy 123.19 31.75)
 		)
 		(stroke
 			(width 0)
@@ -643,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 20.32) (xy 132.08 20.32)
+			(xy 120.65 20.32) (xy 123.19 20.32)
 		)
 		(stroke
 			(width 0)
@@ -653,7 +748,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 93.98) (xy 40.64 93.98)
+			(xy 36.83 76.2) (xy 40.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -663,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 20.32) (xy 146.05 20.32)
+			(xy 133.35 20.32) (xy 137.16 20.32)
 		)
 		(stroke
 			(width 0)
@@ -673,7 +768,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 132.08) (xy 81.28 132.08)
+			(xy 74.93 104.14) (xy 77.47 104.14)
 		)
 		(stroke
 			(width 0)
@@ -683,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 58.42) (xy 39.37 59.69)
+			(xy 39.37 50.8) (xy 39.37 52.07)
 		)
 		(stroke
 			(width 0)
@@ -693,7 +788,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 58.42) (xy 144.78 59.69)
+			(xy 135.89 50.8) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
@@ -703,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 93.98) (xy 78.74 96.52)
+			(xy 74.93 76.2) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -713,7 +808,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 134.62) (xy 91.44 134.62)
+			(xy 88.9 106.68) (xy 87.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -733,7 +828,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 132.08) (xy 40.64 132.08)
+			(xy 36.83 104.14) (xy 40.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -743,7 +838,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 58.42) (xy 144.78 58.42)
+			(xy 137.16 50.8) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +848,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 74.93) (xy 132.08 76.2)
+			(xy 123.19 67.31) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +858,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 113.03) (xy 26.67 114.3)
+			(xy 26.67 95.25) (xy 26.67 96.52)
 		)
 		(stroke
 			(width 0)
@@ -773,7 +868,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 134.62) (xy 39.37 134.62)
+			(xy 40.64 106.68) (xy 39.37 106.68)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +878,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 146.05 55.88)
+			(xy 133.35 48.26) (xy 137.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 132.08) (xy 29.21 132.08)
+			(xy 26.67 104.14) (xy 29.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 93.98) (xy 29.21 93.98)
+			(xy 26.67 76.2) (xy 29.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +908,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 132.08) (xy 78.74 134.62)
+			(xy 74.93 104.14) (xy 74.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +918,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 20.32) (xy 132.08 22.86)
+			(xy 123.19 20.32) (xy 123.19 22.86)
 		)
 		(stroke
 			(width 0)
@@ -833,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 104.14) (xy 78.74 105.41)
+			(xy 74.93 86.36) (xy 74.93 87.63)
 		)
 		(stroke
 			(width 0)
@@ -843,7 +938,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 55.88) (xy 132.08 58.42)
+			(xy 123.19 48.26) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 38.1) (xy 78.74 39.37)
+			(xy 74.93 38.1) (xy 74.93 39.37)
 		)
 		(stroke
 			(width 0)
@@ -863,7 +958,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 96.52) (xy 39.37 96.52)
+			(xy 40.64 78.74) (xy 39.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 132.08) (xy 26.67 134.62)
+			(xy 26.67 104.14) (xy 26.67 106.68)
 		)
 		(stroke
 			(width 0)
@@ -883,7 +978,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 30.48 55.88)
+			(xy 26.67 48.26) (xy 30.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +988,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 22.86) (xy 144.78 22.86)
+			(xy 137.16 22.86) (xy 135.89 22.86)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 93.98) (xy 78.74 93.98)
+			(xy 72.39 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +1008,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 104.14) (xy 26.67 105.41)
+			(xy 26.67 86.36) (xy 26.67 87.63)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +1018,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 22.86) (xy 91.44 24.13)
+			(xy 87.63 22.86) (xy 87.63 24.13)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 92.71 132.08)
+			(xy 85.09 104.14) (xy 88.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 66.04) (xy 78.74 67.31)
+			(xy 74.93 58.42) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 22.86) (xy 144.78 24.13)
+			(xy 135.89 22.86) (xy 135.89 24.13)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 96.52) (xy 91.44 96.52)
+			(xy 88.9 78.74) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 91.44 97.79)
+			(xy 87.63 78.74) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 39.37) (xy 132.08 40.64)
+			(xy 123.19 39.37) (xy 123.19 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1098,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 74.93) (xy 26.67 76.2)
+			(xy 26.67 67.31) (xy 26.67 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1108,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 78.74 55.88)
+			(xy 72.39 48.26) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 55.88) (xy 132.08 55.88)
+			(xy 120.65 48.26) (xy 123.19 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 151.13) (xy 78.74 152.4)
+			(xy 74.93 123.19) (xy 74.93 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 93.98) (xy 81.28 93.98)
+			(xy 74.93 76.2) (xy 77.47 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 67.31) (xy 26.67 66.04)
+			(xy 26.67 59.69) (xy 26.67 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 132.08) (xy 26.67 132.08)
+			(xy 22.86 104.14) (xy 26.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 26.67 58.42)
+			(xy 26.67 48.26) (xy 26.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 81.28 55.88)
+			(xy 74.93 48.26) (xy 77.47 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1198,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 55.88) (xy 26.67 55.88)
+			(xy 22.86 48.26) (xy 26.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 55.88) (xy 134.62 55.88)
+			(xy 123.19 48.26) (xy 125.73 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 142.24) (xy 26.67 143.51)
+			(xy 26.67 114.3) (xy 26.67 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1133,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 92.71 93.98)
+			(xy 85.09 76.2) (xy 88.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 74.93) (xy 78.74 76.2)
+			(xy 74.93 67.31) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1248,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 113.03) (xy 78.74 114.3)
+			(xy 74.93 95.25) (xy 74.93 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 20.32) (xy 78.74 21.59)
+			(xy 74.93 20.32) (xy 74.93 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 92.71 55.88)
+			(xy 85.09 48.26) (xy 88.9 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 66.04) (xy 132.08 67.31)
+			(xy 123.19 58.42) (xy 123.19 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 58.42) (xy 91.44 59.69)
+			(xy 87.63 50.8) (xy 87.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1203,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 132.08) (xy 78.74 132.08)
+			(xy 72.39 104.14) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 22.86) (xy 91.44 22.86)
+			(xy 88.9 22.86) (xy 87.63 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 20.32) (xy 92.71 20.32)
+			(xy 85.09 20.32) (xy 88.9 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 58.42) (xy 39.37 58.42)
+			(xy 40.64 50.8) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 20.32) (xy 81.28 20.32)
+			(xy 74.93 20.32) (xy 77.47 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1273,7 +1368,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 134.62) (xy 39.37 135.89)
+			(xy 39.37 106.68) (xy 39.37 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 96.52) (xy 39.37 97.79)
+			(xy 39.37 78.74) (xy 39.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1313,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 78.74 58.42)
+			(xy 74.93 48.26) (xy 74.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 93.98) (xy 26.67 93.98)
+			(xy 22.86 76.2) (xy 26.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 142.24) (xy 78.74 143.51)
+			(xy 74.93 114.3) (xy 74.93 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 151.13) (xy 26.67 152.4)
+			(xy 26.67 123.19) (xy 26.67 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 29.21) (xy 78.74 30.48)
+			(xy 74.93 29.21) (xy 74.93 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1363,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 20.32) (xy 78.74 20.32)
+			(xy 71.12 20.32) (xy 74.93 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1373,7 +1468,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 93.98) (xy 26.67 96.52)
+			(xy 26.67 76.2) (xy 26.67 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1383,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 134.62) (xy 91.44 135.89)
+			(xy 87.63 106.68) (xy 87.63 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1393,7 +1488,7 @@
 	)
 	(hierarchical_label "OUT_1024"
 		(shape input)
-		(at 129.54 55.88 180)
+		(at 120.65 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1405,7 +1500,7 @@
 	)
 	(hierarchical_label "OUT_128"
 		(shape input)
-		(at 76.2 93.98 180)
+		(at 72.39 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1417,7 +1512,7 @@
 	)
 	(hierarchical_label "OUT_64"
 		(shape input)
-		(at 76.2 55.88 180)
+		(at 72.39 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1429,7 +1524,7 @@
 	)
 	(hierarchical_label "OUT_256"
 		(shape input)
-		(at 76.2 132.08 180)
+		(at 72.39 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1441,7 +1536,7 @@
 	)
 	(hierarchical_label "OUT_16"
 		(shape input)
-		(at 22.86 132.08 180)
+		(at 22.86 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1453,7 +1548,7 @@
 	)
 	(hierarchical_label "OUT_32"
 		(shape input)
-		(at 74.93 20.32 180)
+		(at 71.12 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1477,7 +1572,7 @@
 	)
 	(hierarchical_label "OUT_8"
 		(shape input)
-		(at 22.86 93.98 180)
+		(at 22.86 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1489,7 +1584,7 @@
 	)
 	(hierarchical_label "OUT_4"
 		(shape input)
-		(at 22.86 55.88 180)
+		(at 22.86 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1501,7 +1596,7 @@
 	)
 	(hierarchical_label "OUT_512"
 		(shape input)
-		(at 129.54 20.32 180)
+		(at 120.65 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1512,95 +1607,17 @@
 		(uuid "f46cedaf-057c-416e-86b5-24b1d1a52ce5")
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 24.13 35.56 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05119ec5-5811-4532-adb2-d41c45e61fc5")
-		(property "Reference" "J2"
-			(at 30.48 34.6074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_2"
-			(at 30.48 37.1474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 30.734 37.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 23.114 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 23.114 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "a6cf5b22-481f-4c8e-8c30-650b40a32402")
-		)
-		(pin "1"
-			(uuid "132bd885-af59-4940-8d4a-04a824ed8e87")
-		)
-		(pin "2"
-			(uuid "9f68a806-509c-45a2-888e-d41f4925b850")
-		)
-		(pin "S"
-			(uuid "46388cec-a58b-42ba-a737-0b7e504b306a")
-		)
-		(pin "T"
-			(uuid "00b83298-43be-4a57-bfa3-3d32695b42de")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 78.74 76.2 0)
+		(at 74.93 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "06aa2d61-335c-4331-bf07-c1ef3d955bf5")
 		(property "Reference" "#PWR032"
-			(at 78.74 82.55 0)
+			(at 74.93 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 91.44 0)
+			(at 74.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 76.2 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +1643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 76.2 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 76.2 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1674,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 100.33 0)
+		(at 74.93 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1665,7 +1682,7 @@
 		(dnp no)
 		(uuid "0738b275-da83-4f5d-a810-f2a8899a30e9")
 		(property "Reference" "R20"
-			(at 76.708 100.33 90)
+			(at 72.898 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,7 +1690,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 78.74 100.33 90)
+			(at 74.93 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1698,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.962 100.33 90)
+			(at 73.152 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 100.33 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1716,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 100.33 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1725,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 78.74 100.33 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1734,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 78.74 100.33 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1743,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 78.74 100.33 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 24.13 0)
+		(at 87.63 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1760,7 +1777,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ca55e90-ea66-49fb-a4b7-63ad381effab")
 		(property "Reference" "#PWR035"
-			(at 91.44 30.48 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 29.21 0)
+			(at 87.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 24.13 0)
+			(at 87.63 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 24.13 0)
+			(at 87.63 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 24.13 0)
+			(at 87.63 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,17 +1833,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 24.13 72.39 90)
-		(unit 2)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 45.72 48.26 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1368bc69-8266-4cb4-9b48-4a02dd3e0701")
-		(property "Reference" "J3"
-			(at 30.48 71.4374 90)
+		(uuid "164704e9-bb6f-4372-bfcf-946adbd57045")
+		(property "Reference" "OUT_2"
+			(at 50.8 46.3549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,8 +1851,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OUT_4"
-			(at 30.48 73.9774 90)
+		(property "Value" "PJ3001F"
+			(at 50.8 48.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,8 +1860,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 30.734 74.422 0)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,8 +1869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 23.114 70.866 0)
+		(property "Datasheet" "~"
+			(at 45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,8 +1878,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 23.114 70.866 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,33 +1887,54 @@
 				(hide yes)
 			)
 		)
-		(pin "T"
-			(uuid "905e9e36-e641-422a-a7a2-5eaeb4381928")
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "S"
-			(uuid "59864881-9881-455a-adaf-bfc8ab3a1e84")
+			(uuid "408a89fd-4467-4148-aad9-7c115d1557c2")
 		)
-		(pin "2"
-			(uuid "362bfac1-bd2a-4ca4-9f6a-3f6e0b904490")
-		)
-		(pin "1"
-			(uuid "7f3fddea-158a-425c-ae61-c67f9d7b8db6")
+		(pin "T"
+			(uuid "f512f70b-0de5-42bc-b3fb-39351c9506ef")
 		)
 		(pin "TN"
-			(uuid "3183b7ec-0ffd-4eff-b8e6-6ac818d700be")
+			(uuid "6bec0c3e-bdbd-483b-9225-a2586a4d9eb5")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J3")
-					(unit 2)
+					(reference "OUT_2")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 76.2 0)
+		(at 123.19 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1905,7 +1943,7 @@
 		(fields_autoplaced yes)
 		(uuid "19ab1a32-ab7c-4bdd-a546-03ee6e264b91")
 		(property "Reference" "#PWR040"
-			(at 132.08 82.55 0)
+			(at 123.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 81.28 0)
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 76.2 0)
+			(at 123.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 76.2 0)
+			(at 123.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 76.2 0)
+			(at 123.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,17 +1999,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 43.18 132.08 180)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 93.98 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2c0840e4-b25f-4108-82d2-20e5edbd9a1f")
-		(property "Reference" "J5"
-			(at 50.8 130.1749 0)
+		(uuid "2516caf0-c8c5-4b34-a1cf-fc5350a01a82")
+		(property "Reference" "OUT_8"
+			(at 99.06 102.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,8 +2017,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OUT_16"
-			(at 50.8 132.7149 0)
+		(property "Value" "PJ3001F"
+			(at 99.06 104.7749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,8 +2026,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 45.212 125.476 0)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,8 +2035,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 41.656 133.096 0)
+		(property "Datasheet" "~"
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,8 +2044,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 41.656 133.096 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,24 +2081,18 @@
 			)
 		)
 		(pin "S"
-			(uuid "1230727c-c8d3-4746-8c4e-7f35844d42d3")
-		)
-		(pin "TN"
-			(uuid "8467a70c-3b6f-4ad8-ad7b-b74a92eea306")
-		)
-		(pin "1"
-			(uuid "ab8c7b6e-2250-48fa-87ee-173febb39175")
+			(uuid "1b5304b9-1d7a-433a-b85b-9ab686f803c9")
 		)
 		(pin "T"
-			(uuid "6bab5bff-64b1-4787-91c3-c83dfe1eafe3")
+			(uuid "7c043aa4-ff83-4d07-9479-6f9fd4ab7a58")
 		)
-		(pin "2"
-			(uuid "b37ae1c6-f1ab-4211-98f5-71cf00db01f9")
+		(pin "TN"
+			(uuid "9fc3672a-d06b-474c-8055-5d03e39b6af1")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J5")
+					(reference "OUT_8")
 					(unit 1)
 				)
 			)
@@ -2106,17 +2165,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 76.2 72.39 90)
-		(unit 2)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 93.98 76.2 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "300cf7a2-5892-470c-a848-0d06a130b83a")
-		(property "Reference" "J7"
-			(at 82.55 71.4374 90)
+		(uuid "2e2a324c-915e-4f18-9813-6f22662f78c5")
+		(property "Reference" "OUT_7"
+			(at 99.06 74.2949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,8 +2183,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OUT_64"
-			(at 82.55 73.9774 90)
+		(property "Value" "PJ3001F"
+			(at 99.06 76.8349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,8 +2192,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 82.804 74.422 0)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,8 +2201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 75.184 70.866 0)
+		(property "Datasheet" "~"
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,8 +2210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 75.184 70.866 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,33 +2219,54 @@
 				(hide yes)
 			)
 		)
-		(pin "TN"
-			(uuid "8838102f-d6d9-4f01-bcc3-e87c23c9c18c")
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "546d01ec-ba1a-46a1-85cd-76265ce10c94")
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "S"
-			(uuid "9fefa2de-279d-4863-8dd7-772a86c39585")
-		)
-		(pin "2"
-			(uuid "cfecdd39-dedd-4d71-8ba1-367ae93dee0e")
+			(uuid "ce705bb0-7e10-4c6a-acbd-73149a4b8441")
 		)
 		(pin "T"
-			(uuid "85e6c24d-881a-4934-9a63-84a910fa4077")
+			(uuid "9a84773c-f133-40c4-b465-c95b3045b334")
+		)
+		(pin "TN"
+			(uuid "45ef0923-12c1-411d-afc4-f3d62629e2ee")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J7")
-					(unit 2)
+					(reference "OUT_7")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 152.4 0)
+		(at 74.93 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2195,7 +2275,7 @@
 		(fields_autoplaced yes)
 		(uuid "31acdc23-7824-4b7c-9cdd-0313cae74222")
 		(property "Reference" "#PWR034"
-			(at 78.74 158.75 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 157.48 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 152.4 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 152.4 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 152.4 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2332,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 93.98 270)
+		(at 81.28 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2260,7 +2340,7 @@
 		(dnp no)
 		(uuid "33ffebd7-7e55-4362-b46a-59dda4b92349")
 		(property "Reference" "R24"
-			(at 85.09 91.948 90)
+			(at 81.28 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2348,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 85.09 93.98 90)
+			(at 81.28 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2356,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 85.09 92.202 90)
+			(at 81.28 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 93.98 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2374,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 93.98 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2383,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 85.09 93.98 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2392,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 85.09 93.98 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2401,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 85.09 93.98 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,32 +2425,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 26.67 138.43 0)
+		(lib_id "Device:LED")
+		(at 123.19 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "347d7455-29ab-432e-a663-b2cff7053ce3")
-		(property "Reference" "R13"
-			(at 24.638 138.43 90)
+		(fields_autoplaced yes)
+		(uuid "346ccbca-1fed-4c98-a7c5-50d7c11282ac")
+		(property "Reference" "D14"
+			(at 126.746 63.8174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 26.67 138.43 90)
+		(property "Value" "LED"
+			(at 126.746 66.3574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 24.892 138.43 90)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2462,101 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 138.43 0)
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e192ad41-7d1b-415e-ae10-26280fc91abf")
+		)
+		(pin "2"
+			(uuid "705ebe5a-b36a-4412-a6d3-dd3d825754aa")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "347d7455-29ab-432e-a663-b2cff7053ce3")
+		(property "Reference" "R13"
+			(at 24.638 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 26.67 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 24.892 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2565,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 138.43 0)
+			(at 26.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2574,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 26.67 138.43 0)
+			(at 26.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2583,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 26.67 138.43 0)
+			(at 26.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2592,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 26.67 138.43 0)
+			(at 26.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2617,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 97.79 0)
+		(at 39.37 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2449,7 +2626,7 @@
 		(fields_autoplaced yes)
 		(uuid "354f48f9-7492-4e20-b686-65136dafae71")
 		(property "Reference" "#PWR029"
-			(at 39.37 104.14 0)
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 102.87 0)
+			(at 39.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 97.79 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 97.79 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 97.79 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,8 +2682,108 @@
 		)
 	)
 	(symbol
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 45.72 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "365fd830-007a-4ce0-a567-d0c9c5ca9b76")
+		(property "Reference" "OUT_1"
+			(at 50.8 18.4149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ3001F"
+			(at 50.8 20.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "06152a8b-57bd-47c0-9f7f-18dd58d1c38a")
+		)
+		(pin "T"
+			(uuid "4fa964b9-758f-4dce-9e75-14563408b97e")
+		)
+		(pin "TN"
+			(uuid "2a220c64-bc1d-4f55-bd2b-4b0b24dc2063")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "OUT_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 144.78 59.69 0)
+		(at 135.89 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2515,7 +2792,7 @@
 		(fields_autoplaced yes)
 		(uuid "38b8d554-c507-4a73-9969-7cfbcbab2647")
 		(property "Reference" "#PWR042"
-			(at 144.78 66.04 0)
+			(at 135.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 64.77 0)
+			(at 135.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 59.69 0)
+			(at 135.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 59.69 0)
+			(at 135.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 59.69 0)
+			(at 135.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 39.37 0)
+		(at 74.93 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2581,7 +2858,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ec5e6b0-0db9-4e68-9e85-bd8a18979541")
 		(property "Reference" "#PWR031"
-			(at 78.74 45.72 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 44.45 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 39.37 0)
+			(at 74.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 39.37 0)
+			(at 74.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 39.37 0)
+			(at 74.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,17 +2914,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 95.25 55.88 180)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 45.72 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4731ce9c-3b40-4517-8542-cd7abbbd3114")
-		(property "Reference" "J7"
-			(at 102.87 53.9749 0)
+		(uuid "419f7623-d10f-4fe6-b9d8-69e0487bf26a")
+		(property "Reference" "OUT_4"
+			(at 50.8 102.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,8 +2932,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OUT_64"
-			(at 102.87 56.5149 0)
+		(property "Value" "PJ3001F"
+			(at 50.8 104.7749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,8 +2941,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 97.282 49.276 0)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 45.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,8 +2950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.726 56.896 0)
+		(property "Datasheet" "~"
+			(at 45.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,8 +2959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.726 56.896 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 45.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,25 +2968,143 @@
 				(hide yes)
 			)
 		)
-		(pin "TN"
-			(uuid "8838102f-d6d9-4f01-bcc3-e87c23c9c18c")
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "546d01ec-ba1a-46a1-85cd-76265ce10c94")
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "S"
-			(uuid "9fefa2de-279d-4863-8dd7-772a86c39585")
-		)
-		(pin "2"
-			(uuid "cfecdd39-dedd-4d71-8ba1-367ae93dee0e")
+			(uuid "da887347-03f7-4a98-b794-6b44c45de085")
 		)
 		(pin "T"
-			(uuid "85e6c24d-881a-4934-9a63-84a910fa4077")
+			(uuid "1d4ca25d-ba6b-417b-9904-4c198b367155")
+		)
+		(pin "TN"
+			(uuid "6d82a629-3f04-4bb1-85d3-055e5a65cf02")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J7")
+					(reference "OUT_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 26.67 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "456efc4e-d062-434d-9a92-a6ea9190f279")
+		(property "Reference" "D6"
+			(at 30.226 63.8174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 30.226 66.3574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e511916f-26d0-4451-940e-abf6c01b246a")
+		)
+		(pin "2"
+			(uuid "9b0bfd7d-d64e-4aff-a7b7-7711a58877e3")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2810,95 +3205,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 148.59 55.88 180)
+		(lib_id "power:GND")
+		(at 74.93 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4809f3fb-2386-42b6-b2de-f5970cdd5666")
-		(property "Reference" "J11"
-			(at 156.21 53.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_1024"
-			(at 156.21 56.5149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 150.622 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.066 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.066 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "2ea0234e-e364-4e4c-9837-e23428ac9ee1")
-		)
-		(pin "T"
-			(uuid "1aa5d426-ce8f-427d-92e6-69a774a1e042")
-		)
-		(pin "S"
-			(uuid "7f9b9460-ef65-4630-b88f-c97adba68e2f")
-		)
-		(pin "2"
-			(uuid "b026e82a-6a64-4677-b2ce-db6267ea3744")
-		)
-		(pin "1"
-			(uuid "6f7253c1-1bc9-40c5-b8a9-645b6fcd6265")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(uuid "486955a7-3ef5-4f0a-b7f4-9e760129302e")
 		(property "Reference" "#PWR033"
-			(at 78.74 120.65 0)
+			(at 74.93 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 129.54 0)
+			(at 74.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 114.3 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 114.3 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 114.3 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +3272,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 26.67 0)
+		(at 123.19 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2963,7 +3280,7 @@
 		(dnp no)
 		(uuid "4bbb571a-974c-4d18-b515-2fb92e399855")
 		(property "Reference" "R26"
-			(at 130.048 26.67 90)
+			(at 121.158 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +3288,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 132.08 26.67 90)
+			(at 123.19 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 130.302 26.67 90)
+			(at 121.412 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 26.67 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,7 +3314,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 26.67 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3323,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 132.08 26.67 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3332,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 132.08 26.67 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3341,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 132.08 26.67 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,87 +3365,8 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 24.13 148.59 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "501715e5-99c4-4e9d-a363-d3edbfd27758")
-		(property "Reference" "J5"
-			(at 30.48 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_16"
-			(at 30.48 150.1774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 30.734 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 23.114 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 23.114 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "1230727c-c8d3-4746-8c4e-7f35844d42d3")
-		)
-		(pin "TN"
-			(uuid "8467a70c-3b6f-4ad8-ad7b-b74a92eea306")
-		)
-		(pin "1"
-			(uuid "ab8c7b6e-2250-48fa-87ee-173febb39175")
-		)
-		(pin "T"
-			(uuid "6bab5bff-64b1-4787-91c3-c83dfe1eafe3")
-		)
-		(pin "2"
-			(uuid "b37ae1c6-f1ab-4211-98f5-71cf00db01f9")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 91.44 97.79 0)
+		(at 87.63 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3137,7 +3375,7 @@
 		(fields_autoplaced yes)
 		(uuid "50a6d7b6-6511-40a7-87b0-0da421fde329")
 		(property "Reference" "#PWR037"
-			(at 91.44 104.14 0)
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 102.87 0)
+			(at 87.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 97.79 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 97.79 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 97.79 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3432,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 20.32 270)
+		(at 129.54 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3202,7 +3440,7 @@
 		(dnp no)
 		(uuid "51310f4c-365f-4d8f-8f15-22ef1499c8ce")
 		(property "Reference" "R28"
-			(at 138.43 18.288 90)
+			(at 129.54 18.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3448,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 138.43 20.32 90)
+			(at 129.54 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3456,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 138.43 18.542 90)
+			(at 129.54 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 20.32 0)
+			(at 129.54 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3474,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 20.32 0)
+			(at 129.54 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3483,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 138.43 20.32 0)
+			(at 129.54 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3492,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 138.43 20.32 0)
+			(at 129.54 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3501,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 138.43 20.32 0)
+			(at 129.54 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3526,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 20.32 270)
+		(at 81.28 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3296,7 +3534,7 @@
 		(dnp no)
 		(uuid "51ccf3e9-bce8-48ba-9bff-437eb103f69b")
 		(property "Reference" "R22"
-			(at 85.09 18.288 90)
+			(at 81.28 18.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3542,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 85.09 20.32 90)
+			(at 81.28 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3550,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 85.09 18.542 90)
+			(at 81.28 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +3559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 20.32 0)
+			(at 81.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3568,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 20.32 0)
+			(at 81.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3577,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 85.09 20.32 0)
+			(at 81.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3586,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 85.09 20.32 0)
+			(at 81.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3595,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 85.09 20.32 0)
+			(at 81.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,245 +3619,8 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 129.54 72.39 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55cb123a-d98a-4bbf-b5d9-fc3be040c1f0")
-		(property "Reference" "J11"
-			(at 135.89 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_1024"
-			(at 135.89 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 136.144 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.524 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.524 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "2ea0234e-e364-4e4c-9837-e23428ac9ee1")
-		)
-		(pin "T"
-			(uuid "1aa5d426-ce8f-427d-92e6-69a774a1e042")
-		)
-		(pin "S"
-			(uuid "7f9b9460-ef65-4630-b88f-c97adba68e2f")
-		)
-		(pin "2"
-			(uuid "b026e82a-6a64-4677-b2ce-db6267ea3744")
-		)
-		(pin "1"
-			(uuid "6f7253c1-1bc9-40c5-b8a9-645b6fcd6265")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J11")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 148.59 20.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56ef44b9-c49d-47e7-8222-77db0f27a306")
-		(property "Reference" "J10"
-			(at 156.21 18.4149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_512"
-			(at 156.21 20.9549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 150.622 13.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.066 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.066 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "ba5458d6-a9c8-4e84-abd0-eaa2c0156cfa")
-		)
-		(pin "1"
-			(uuid "630c06cd-f754-4503-a6a5-d8eb31603baa")
-		)
-		(pin "T"
-			(uuid "06f70059-ee31-49ee-a6b4-db25368ae2ac")
-		)
-		(pin "S"
-			(uuid "d61b2462-1ca4-49ab-a994-4f4f4722b544")
-		)
-		(pin "2"
-			(uuid "cd0c8c37-5cb0-4372-a2d7-6f98ff652762")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 76.2 110.49 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a2219ce-3cc5-4046-ab1d-44097ff10eba")
-		(property "Reference" "J8"
-			(at 82.55 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_128"
-			(at 82.55 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 82.804 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 75.184 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 75.184 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "cbc10e71-a3e3-4449-a199-3fe885b1e809")
-		)
-		(pin "TN"
-			(uuid "c2508317-1764-40cb-a54f-3c19e499e605")
-		)
-		(pin "1"
-			(uuid "601c52a5-54db-4d0f-ada3-66924e52a7bb")
-		)
-		(pin "2"
-			(uuid "040dffc4-4b1c-426a-9d8f-4ba37c5d211e")
-		)
-		(pin "S"
-			(uuid "72092f25-447a-47f5-b4e1-cb4be9a5b5ab")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J8")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 78.74 138.43 0)
+		(at 74.93 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3627,7 +3628,7 @@
 		(dnp no)
 		(uuid "5c7e8e2a-bed3-48a2-9320-189d237cb132")
 		(property "Reference" "R21"
-			(at 76.708 138.43 90)
+			(at 72.898 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3636,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 78.74 138.43 90)
+			(at 74.93 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3644,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.962 138.43 90)
+			(at 73.152 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 138.43 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3662,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 138.43 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3671,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 78.74 138.43 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3680,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 78.74 138.43 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3689,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 78.74 138.43 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,32 +3713,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 33.02 93.98 270)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 142.24 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "634baa3d-8d54-482a-a902-482c5b01e301")
-		(property "Reference" "R15"
-			(at 33.02 91.948 90)
+		(fields_autoplaced yes)
+		(uuid "5d0f42c0-7510-4dea-86fc-3939a75e5679")
+		(property "Reference" "OUT_10"
+			(at 147.32 46.3549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 33.02 93.98 90)
+		(property "Value" "PJ3001F"
+			(at 147.32 48.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 33.02 92.202 90)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 142.24 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3750,298 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 93.98 0)
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "d7647f99-8d5a-4461-a655-c2bcef8ed421")
+		)
+		(pin "T"
+			(uuid "e02080f6-1a13-4a5c-aec9-39bfd3eda491")
+		)
+		(pin "TN"
+			(uuid "4685bb4f-2926-4a19-9f4c-1841e6fba2f8")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "OUT_10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 74.93 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d9ae351-8f7d-48ca-af97-e21bec0617b0")
+		(property "Reference" "D9"
+			(at 78.486 34.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 78.486 37.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1057d083-c167-4211-9d7b-1d12716239c7")
+		)
+		(pin "2"
+			(uuid "9e0b51c2-25cb-4f06-a7ee-9d6e4c8ed37c")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 26.67 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60bdf583-5526-40d6-8274-fad65dc50e81")
+		(property "Reference" "D7"
+			(at 30.226 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 30.226 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "376f014f-da50-4c26-a33a-3e424912edeb")
+		)
+		(pin "2"
+			(uuid "0abd45e8-2b67-4917-9af8-0a161fffa724")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "634baa3d-8d54-482a-a902-482c5b01e301")
+		(property "Reference" "R15"
+			(at 33.02 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 33.02 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 33.02 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +4050,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 33.02 93.98 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +4059,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 33.02 93.98 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +4068,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 33.02 93.98 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +4077,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 33.02 93.98 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +4102,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 55.88 270)
+		(at 129.54 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3815,7 +4110,7 @@
 		(dnp no)
 		(uuid "65e28471-5b5d-4208-9931-98f2cb96885b")
 		(property "Reference" "R29"
-			(at 138.43 53.848 90)
+			(at 129.54 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +4118,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 138.43 55.88 90)
+			(at 129.54 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +4126,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 138.43 54.102 90)
+			(at 129.54 46.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +4135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 55.88 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +4144,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 55.88 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +4153,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 138.43 55.88 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +4162,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 138.43 55.88 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +4171,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 138.43 55.88 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,87 +4195,8 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 129.54 36.83 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69a46562-9f11-4782-8356-8a73bf144909")
-		(property "Reference" "J10"
-			(at 135.89 35.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_512"
-			(at 135.89 38.4174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 136.144 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.524 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.524 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "ba5458d6-a9c8-4e84-abd0-eaa2c0156cfa")
-		)
-		(pin "1"
-			(uuid "630c06cd-f754-4503-a6a5-d8eb31603baa")
-		)
-		(pin "T"
-			(uuid "06f70059-ee31-49ee-a6b4-db25368ae2ac")
-		)
-		(pin "S"
-			(uuid "d61b2462-1ca4-49ab-a994-4f4f4722b544")
-		)
-		(pin "2"
-			(uuid "cd0c8c37-5cb0-4372-a2d7-6f98ff652762")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J10")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 85.09 55.88 270)
+		(at 81.28 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3988,7 +4204,7 @@
 		(dnp no)
 		(uuid "6d8da89d-67c4-430c-afe1-41e543100d10")
 		(property "Reference" "R23"
-			(at 85.09 53.848 90)
+			(at 81.28 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +4212,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 85.09 55.88 90)
+			(at 81.28 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4220,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 85.09 54.102 90)
+			(at 81.28 46.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 55.88 0)
+			(at 81.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4238,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 55.88 0)
+			(at 81.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4247,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 85.09 55.88 0)
+			(at 81.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4256,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 85.09 55.88 0)
+			(at 81.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +4265,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 85.09 55.88 0)
+			(at 81.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4290,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 132.08 270)
+		(at 81.28 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4082,7 +4298,7 @@
 		(dnp no)
 		(uuid "6f86058f-0ead-422c-8595-66c88d191ccc")
 		(property "Reference" "R25"
-			(at 85.09 130.048 90)
+			(at 81.28 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4306,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 85.09 132.08 90)
+			(at 81.28 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4314,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 85.09 130.302 90)
+			(at 81.28 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 132.08 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4332,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 132.08 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4341,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 85.09 132.08 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4350,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 85.09 132.08 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4359,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 85.09 132.08 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,15 +4384,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 40.64 0)
+		(at 123.19 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7474c722-a55f-4cb1-99d4-0845b7e2146e")
 		(property "Reference" "#PWR039"
-			(at 132.08 46.99 0)
+			(at 123.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4402,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 53.34 0)
+			(at 123.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 40.64 0)
+			(at 123.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 40.64 0)
+			(at 123.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 40.64 0)
+			(at 123.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,17 +4449,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 95.25 93.98 180)
+		(lib_id "Device:LED")
+		(at 123.19 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a7c912e-21af-4164-8ab6-6c8c2a592adc")
-		(property "Reference" "J8"
-			(at 102.87 92.0749 0)
+		(uuid "8407a3d3-d724-4570-abac-75bd766387bd")
+		(property "Reference" "D13"
+			(at 126.746 35.8774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,8 +4467,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OUT_128"
-			(at 102.87 94.6149 0)
+		(property "Value" "LED"
+			(at 126.746 38.4174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,8 +4476,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 97.282 87.376 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,8 +4485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.726 94.996 0)
+		(property "Datasheet" "~"
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,8 +4494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.726 94.996 0)
+		(property "Description" "Light emitting diode"
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,112 +4503,51 @@
 				(hide yes)
 			)
 		)
-		(pin "T"
-			(uuid "cbc10e71-a3e3-4449-a199-3fe885b1e809")
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "TN"
-			(uuid "c2508317-1764-40cb-a54f-3c19e499e605")
+		(property "Manufacturer" "KENTO"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "601c52a5-54db-4d0f-ada3-66924e52a7bb")
+			(uuid "2130d834-0076-4df3-abc5-be214b4e585e")
 		)
 		(pin "2"
-			(uuid "040dffc4-4b1c-426a-9d8f-4ba37c5d211e")
-		)
-		(pin "S"
-			(uuid "72092f25-447a-47f5-b4e1-cb4be9a5b5ab")
+			(uuid "b28ef28b-8bc7-47fd-9bc8-b254925741e9")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J8")
+					(reference "D13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 76.2 35.56 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88d79425-2f37-41e8-8d54-53f66064e7e8")
-		(property "Reference" "J6"
-			(at 82.55 34.6074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_32"
-			(at 82.55 37.1474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 82.804 37.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 75.184 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 75.184 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1319a2ba-9a1c-43be-9841-f302066c1438")
-		)
-		(pin "S"
-			(uuid "44d47cf5-513e-4629-ae96-261516385ce4")
-		)
-		(pin "TN"
-			(uuid "7d2d55aa-c21b-4602-8684-34ca09091190")
-		)
-		(pin "T"
-			(uuid "91d60faf-93c9-4e2d-91f8-81c5ce66f972")
-		)
-		(pin "2"
-			(uuid "727a9d09-1400-4178-b30b-22eb93010153")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 39.37 59.69 0)
+		(at 39.37 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4400,7 +4556,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d3d0e24-757f-4fcf-ab43-0757c23f49c1")
 		(property "Reference" "#PWR028"
-			(at 39.37 66.04 0)
+			(at 39.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 64.77 0)
+			(at 39.37 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 59.69 0)
+			(at 39.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 59.69 0)
+			(at 39.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 59.69 0)
+			(at 39.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 59.69 0)
+		(at 87.63 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4466,7 +4622,7 @@
 		(fields_autoplaced yes)
 		(uuid "905f16a9-1087-41ad-bd02-8ed211cddbaf")
 		(property "Reference" "#PWR036"
-			(at 91.44 66.04 0)
+			(at 87.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 64.77 0)
+			(at 87.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 59.69 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 59.69 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 59.69 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,16 +4678,114 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 26.67 114.3 0)
+		(lib_id "Device:LED")
+		(at 26.67 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98a21046-a735-4ad7-b828-fe9cad8fdac7")
+		(property "Reference" "D8"
+			(at 30.226 119.6974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 30.226 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84428876-1e43-4259-b9b7-0a0d3c9da49f")
+		)
+		(pin "2"
+			(uuid "4f7e1539-e102-457b-b82a-d4fb1d133326")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9d95177f-bc3f-4d06-a9db-afc7a2bc01f0")
 		(property "Reference" "#PWR025"
-			(at 26.67 120.65 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 129.54 0)
+			(at 26.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 114.3 0)
+			(at 26.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 114.3 0)
+			(at 26.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 114.3 0)
+			(at 26.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4842,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 25.4 0)
+		(at 74.93 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4596,7 +4850,7 @@
 		(dnp no)
 		(uuid "9e197bb3-2d78-4b4b-bcad-4d6cf78f1c8b")
 		(property "Reference" "R18"
-			(at 76.708 25.4 90)
+			(at 72.898 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4858,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 78.74 25.4 90)
+			(at 74.93 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4866,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.962 25.4 90)
+			(at 73.152 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 25.4 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4884,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 25.4 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4893,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 78.74 25.4 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4902,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 78.74 25.4 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4911,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 78.74 25.4 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,190 +4935,35 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 76.2 148.59 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9feb36fd-205f-490e-b467-621861e6eeaf")
-		(property "Reference" "J9"
-			(at 82.55 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_256"
-			(at 82.55 150.1774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 82.804 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 75.184 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 75.184 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "44ad9c69-8394-46f0-b1e9-95bbdaaf5add")
-		)
-		(pin "TN"
-			(uuid "0e9bee8b-73f5-4ff3-8ae2-d31822349815")
-		)
-		(pin "T"
-			(uuid "480b4792-2e1e-49a6-bcae-90ce539a2144")
-		)
-		(pin "2"
-			(uuid "3aa1fbe2-d195-4203-86a8-dc6e6434d596")
-		)
-		(pin "1"
-			(uuid "69891b7f-5e15-4b71-a12e-f4484e935ad2")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J9")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 24.13 110.49 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5c316a4-9f24-403c-b330-84502743f92a")
-		(property "Reference" "J4"
-			(at 30.48 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_8"
-			(at 30.48 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 30.734 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 23.114 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 23.114 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "285c2976-9325-48ed-9f86-c4384d8fadb5")
-		)
-		(pin "2"
-			(uuid "a72294c7-e0d5-4557-83f1-4da5e656eb6a")
-		)
-		(pin "1"
-			(uuid "990c5221-9452-491f-902e-149d5240acb3")
-		)
-		(pin "T"
-			(uuid "7e21d1c8-0814-41aa-b2d9-d884032bb112")
-		)
-		(pin "S"
-			(uuid "21cc8fbe-6f56-4c9e-9511-47bfd847a128")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 100.33 0)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 93.98 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a90437cb-17c9-4a73-b785-559b97407205")
-		(property "Reference" "R12"
-			(at 24.638 100.33 90)
+		(fields_autoplaced yes)
+		(uuid "a1efb9ea-61f5-40d3-93a5-ffaa316c87d1")
+		(property "Reference" "OUT_6"
+			(at 99.06 46.3549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 26.67 100.33 90)
+		(property "Value" "PJ3001F"
+			(at 99.06 48.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 24.892 100.33 90)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +4972,201 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 100.33 0)
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "cf4d752a-3b81-4ba8-928c-8f093a1cf27a")
+		)
+		(pin "T"
+			(uuid "ee7dc113-fd3b-4a90-bf59-4e24079d6169")
+		)
+		(pin "TN"
+			(uuid "c11bb9da-de58-4569-8c23-eda1d08cfd26")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "OUT_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 74.93 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a93188-7b1e-4142-ab69-df5ef296c3d9")
+		(property "Reference" "D12"
+			(at 78.486 119.6974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 78.486 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1bef065-9c0a-4271-a55b-2e42598c33e3")
+		)
+		(pin "2"
+			(uuid "e6a4808c-3e3c-43df-ac1f-bf624f8669d5")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a90437cb-17c9-4a73-b785-559b97407205")
+		(property "Reference" "R12"
+			(at 24.638 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 24.892 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5175,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 100.33 0)
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +5184,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 26.67 100.33 0)
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +5193,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 26.67 100.33 0)
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +5202,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 26.67 100.33 0)
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5227,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 26.67 62.23 0)
+		(at 26.67 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4942,7 +5235,7 @@
 		(dnp no)
 		(uuid "ab0c1576-643a-4c9b-bc74-191a4be6413d")
 		(property "Reference" "R11"
-			(at 24.638 62.23 90)
+			(at 24.638 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +5243,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 26.67 62.23 90)
+			(at 26.67 54.61 90)
 			(effects
 				(font
 					(face "KiCad Font")
@@ -4959,7 +5252,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 24.892 62.23 90)
+			(at 24.892 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +5261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 62.23 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5270,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 62.23 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5279,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 26.67 62.23 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +5288,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 26.67 62.23 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5297,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 26.67 62.23 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,17 +5321,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 43.18 55.88 180)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 93.98 20.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad18fe3c-81e2-4822-a7df-4c2ab05d6785")
-		(property "Reference" "J3"
-			(at 50.8 53.9749 0)
+		(uuid "af8162b1-a959-4f6f-b685-facc5e4f4907")
+		(property "Reference" "OUT_5"
+			(at 99.06 18.4149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,8 +5339,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OUT_4"
-			(at 50.8 56.5149 0)
+		(property "Value" "PJ3001F"
+			(at 99.06 20.9549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,8 +5348,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 45.212 49.276 0)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 93.98 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,8 +5357,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 41.656 56.896 0)
+		(property "Datasheet" "~"
+			(at 93.98 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,8 +5366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 41.656 56.896 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 93.98 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,60 +5375,8 @@
 				(hide yes)
 			)
 		)
-		(pin "T"
-			(uuid "905e9e36-e641-422a-a7a2-5eaeb4381928")
-		)
-		(pin "S"
-			(uuid "59864881-9881-455a-adaf-bfc8ab3a1e84")
-		)
-		(pin "2"
-			(uuid "362bfac1-bd2a-4ca4-9f6a-3f6e0b904490")
-		)
-		(pin "1"
-			(uuid "7f3fddea-158a-425c-ae61-c67f9d7b8db6")
-		)
-		(pin "TN"
-			(uuid "3183b7ec-0ffd-4eff-b8e6-6ac818d700be")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 95.25 132.08 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae6fb7f8-6787-42e5-89e7-19b2b064d306")
-		(property "Reference" "J9"
-			(at 102.87 130.1749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_256"
-			(at 102.87 132.7149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 97.282 125.476 0)
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 93.98 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,8 +5384,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.726 133.096 0)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 93.98 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,8 +5393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.726 133.096 0)
+		(property "Part #" "PJ-3001F"
+			(at 93.98 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,103 +5403,18 @@
 			)
 		)
 		(pin "S"
-			(uuid "44ad9c69-8394-46f0-b1e9-95bbdaaf5add")
-		)
-		(pin "TN"
-			(uuid "0e9bee8b-73f5-4ff3-8ae2-d31822349815")
+			(uuid "5aa4b40b-b4c6-41b7-ab14-1940b3d85363")
 		)
 		(pin "T"
-			(uuid "480b4792-2e1e-49a6-bcae-90ce539a2144")
-		)
-		(pin "2"
-			(uuid "3aa1fbe2-d195-4203-86a8-dc6e6434d596")
-		)
-		(pin "1"
-			(uuid "69891b7f-5e15-4b71-a12e-f4484e935ad2")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 95.25 20.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5b6c9f2-e251-4eed-a121-3854789cf6c0")
-		(property "Reference" "J6"
-			(at 102.87 18.4149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_32"
-			(at 102.87 20.9549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 97.282 13.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.726 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.726 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1319a2ba-9a1c-43be-9841-f302066c1438")
-		)
-		(pin "S"
-			(uuid "44d47cf5-513e-4629-ae96-261516385ce4")
+			(uuid "0ead5125-6a74-4915-9784-1018e04425f2")
 		)
 		(pin "TN"
-			(uuid "7d2d55aa-c21b-4602-8684-34ca09091190")
-		)
-		(pin "T"
-			(uuid "91d60faf-93c9-4e2d-91f8-81c5ce66f972")
-		)
-		(pin "2"
-			(uuid "727a9d09-1400-4178-b30b-22eb93010153")
+			(uuid "2850c3a6-c3a3-480a-b2de-840f91bab38b")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J6")
+					(reference "OUT_5")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 135.89 0)
+		(at 87.63 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5369,7 +5525,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba7452be-8c8f-4a4c-9626-8ac38c4c929b")
 		(property "Reference" "#PWR038"
-			(at 91.44 142.24 0)
+			(at 87.63 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 140.97 0)
+			(at 87.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 135.89 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 135.89 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 135.89 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,16 +5647,117 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 26.67 76.2 0)
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 45.72 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf725ef2-2b22-43ff-bccd-82f48476e3b2")
+		(property "Reference" "OUT_3"
+			(at 50.8 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ3001F"
+			(at 50.8 76.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "15059f69-b630-4ab1-ba46-6b9671269ab0")
+		)
+		(pin "T"
+			(uuid "92084ab9-270c-4503-806c-e704236a76fb")
+		)
+		(pin "TN"
+			(uuid "82c0c0fb-693e-420c-b939-40dc2fdfb00b")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "OUT_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c10faeed-67d2-414e-ade4-d5ba888784ef")
 		(property "Reference" "#PWR024"
-			(at 26.67 82.55 0)
+			(at 26.67 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5766,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 91.44 0)
+			(at 26.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 76.2 0)
+			(at 26.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 76.2 0)
+			(at 26.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 76.2 0)
+			(at 26.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5814,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 62.23 0)
+		(at 123.19 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5565,7 +5822,7 @@
 		(dnp no)
 		(uuid "c11a9885-5d0f-44f4-a83d-30f4fc98054d")
 		(property "Reference" "R27"
-			(at 130.048 62.23 90)
+			(at 121.158 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5830,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 132.08 62.23 90)
+			(at 123.19 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 130.302 62.23 90)
+			(at 121.412 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 62.23 0)
+			(at 123.19 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5856,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 62.23 0)
+			(at 123.19 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5865,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 132.08 62.23 0)
+			(at 123.19 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5874,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 132.08 62.23 0)
+			(at 123.19 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5883,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 132.08 62.23 0)
+			(at 123.19 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 24.13 0)
+		(at 135.89 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5660,7 +5917,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7d8b9e4-0822-4b0c-849b-8cf4d72f9e6e")
 		(property "Reference" "#PWR041"
-			(at 144.78 30.48 0)
+			(at 135.89 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5926,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 29.21 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 24.13 0)
+			(at 135.89 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 24.13 0)
+			(at 135.89 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 24.13 0)
+			(at 135.89 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5974,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 55.88 270)
+		(at 34.29 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5725,7 +5982,7 @@
 		(dnp no)
 		(uuid "cba4e1fc-6e84-46a9-ac70-cbb9378ba57e")
 		(property "Reference" "R17"
-			(at 34.29 53.848 90)
+			(at 34.29 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5990,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 34.29 55.88 90)
+			(at 34.29 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5998,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 34.29 54.102 90)
+			(at 34.29 46.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +6007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 55.88 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +6016,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 55.88 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +6025,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 34.29 55.88 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +6034,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 34.29 55.88 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +6043,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 34.29 55.88 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,87 +6067,8 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 43.18 20.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0a24e22-3424-4eb4-878f-3ff27f2c47f6")
-		(property "Reference" "J2"
-			(at 50.8 18.4149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT_2"
-			(at 50.8 20.9549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 45.212 13.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.656 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.656 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "a6cf5b22-481f-4c8e-8c30-650b40a32402")
-		)
-		(pin "1"
-			(uuid "132bd885-af59-4940-8d4a-04a824ed8e87")
-		)
-		(pin "2"
-			(uuid "9f68a806-509c-45a2-888e-d41f4925b850")
-		)
-		(pin "S"
-			(uuid "46388cec-a58b-42ba-a737-0b7e504b306a")
-		)
-		(pin "T"
-			(uuid "00b83298-43be-4a57-bfa3-3d32695b42de")
-		)
-		(instances
-			(project ""
-				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 39.37 135.89 0)
+		(at 39.37 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5899,7 +6077,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd30c065-a027-404f-87a8-209e3846cfd4")
 		(property "Reference" "#PWR030"
-			(at 39.37 142.24 0)
+			(at 39.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +6086,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 140.97 0)
+			(at 39.37 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +6094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 135.89 0)
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +6103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 135.89 0)
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +6112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 135.89 0)
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +6134,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 62.23 0)
+		(at 74.93 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5964,7 +6142,7 @@
 		(dnp no)
 		(uuid "e2217b16-78c7-44d4-bd29-a25dc2309760")
 		(property "Reference" "R19"
-			(at 76.708 62.23 90)
+			(at 72.898 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +6150,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 78.74 62.23 90)
+			(at 74.93 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6158,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.962 62.23 90)
+			(at 73.152 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 62.23 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6176,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 62.23 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6185,7 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Zl09mQ"
-			(at 78.74 62.23 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +6194,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 78.74 62.23 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +6203,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-074K7L"
-			(at 78.74 62.23 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 152.4 0)
+		(at 26.67 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6059,7 +6237,7 @@
 		(fields_autoplaced yes)
 		(uuid "e267cba5-77ee-4910-8133-95b9867412cb")
 		(property "Reference" "#PWR026"
-			(at 26.67 158.75 0)
+			(at 26.67 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 157.48 0)
+			(at 26.67 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 152.4 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 152.4 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 152.4 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,32 +6293,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 33.02 132.08 270)
+		(lib_id "Device:LED")
+		(at 26.67 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8e3feb8-cde6-4d3f-aa72-32fa6977e7be")
-		(property "Reference" "R16"
-			(at 33.02 130.048 90)
+		(fields_autoplaced yes)
+		(uuid "e290927e-0d4e-4ff5-9ac4-64ffb84cf6f7")
+		(property "Reference" "D5"
+			(at 30.226 34.6074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 33.02 132.08 90)
+		(property "Value" "LED"
+			(at 30.226 37.1474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 33.02 130.302 90)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6330,201 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 132.08 0)
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d11ad732-85ba-489f-b420-00b20dbef627")
+		)
+		(pin "2"
+			(uuid "2965530e-3ccf-4849-b56d-ddad1e61803c")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benjiaomodular:PJ3001F")
+		(at 142.24 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37b0302-038e-40cd-83d7-eee0e8dee556")
+		(property "Reference" "OUT_9"
+			(at 147.32 18.4149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ3001F"
+			(at 147.32 20.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "benjiaomodular:AudioJack_3.5mm"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "2dc17b2e-64cf-49e8-9468-141c76f6b13b")
+		)
+		(pin "T"
+			(uuid "69d7d605-d440-424e-802b-f33e3a667754")
+		)
+		(pin "TN"
+			(uuid "e61b7e14-824c-4d1e-b3ed-bc790b186d1c")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "OUT_9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8e3feb8-cde6-4d3f-aa72-32fa6977e7be")
+		(property "Reference" "R16"
+			(at 33.02 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 33.02 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 33.02 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6533,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 33.02 132.08 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6542,7 @@
 			)
 		)
 		(property "URL" " https://mou.sr/3MKtPCB"
-			(at 33.02 132.08 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6551,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 33.02 132.08 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6560,7 @@
 			)
 		)
 		(property "Part #" "RC0603FR-071KL "
-			(at 33.02 132.08 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,17 +6584,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benjiaomodular:PJ3001F_LED")
-		(at 43.18 93.98 180)
+		(lib_id "Device:LED")
+		(at 74.93 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f16022dd-e4cb-4a86-b3bd-bb438816ffae")
-		(property "Reference" "J4"
-			(at 50.8 92.0749 0)
+		(uuid "eaaec27b-82b4-4fa0-8aa8-0f6f2f1ceed7")
+		(property "Reference" "D11"
+			(at 78.486 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,8 +6602,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OUT_8"
-			(at 50.8 94.6149 0)
+		(property "Value" "LED"
+			(at 78.486 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,8 +6611,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "benjiaomodular:AudioJack_PJ3001F_0805LED"
-			(at 45.212 87.376 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 74.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,8 +6620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 41.656 94.996 0)
+		(property "Datasheet" "~"
+			(at 74.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,8 +6629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 41.656 94.996 0)
+		(property "Description" "Light emitting diode"
+			(at 74.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,25 +6638,140 @@
 				(hide yes)
 			)
 		)
-		(pin "TN"
-			(uuid "285c2976-9325-48ed-9f86-c4384d8fadb5")
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "a72294c7-e0d5-4557-83f1-4da5e656eb6a")
+		(property "Manufacturer" "KENTO"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "990c5221-9452-491f-902e-149d5240acb3")
+			(uuid "62602096-28ca-4bc2-8e1f-5dd12fd3a19c")
 		)
-		(pin "T"
-			(uuid "7e21d1c8-0814-41aa-b2d9-d884032bb112")
-		)
-		(pin "S"
-			(uuid "21cc8fbe-6f56-4c9e-9511-47bfd847a128")
+		(pin "2"
+			(uuid "6812be41-699f-4f3a-b303-817a0f493da9")
 		)
 		(instances
-			(project ""
+			(project "MiniDiv"
 				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
-					(reference "J4")
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 74.93 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec50f759-8bea-4274-bc8f-557bd94cf6e2")
+		(property "Reference" "D10"
+			(at 78.486 63.8174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 78.486 66.3574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/led-3mm-orange.html"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3ARG4HWC"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b5c2de-7af6-4b7e-b9cc-3724fde8ea7d")
+		)
+		(pin "2"
+			(uuid "d9de3ca2-5b41-4e75-9b3b-f8ef208367b5")
+		)
+		(instances
+			(project "MiniDiv"
+				(path "/84fe0ec9-e3d0-43ae-b6e3-0483bfc8504e/0f61739d-d153-43b0-afcf-93e674e4f3b7"
+					(reference "D10")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniDiv")
-		(rev "v0.3")
+		(rev "v0.2")
 		(company "benjiaomodular")
 	)
 	(lib_symbols
